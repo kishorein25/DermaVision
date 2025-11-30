@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Video, MessageSquare, Star, MapPin, Send, ArrowLeft } from 'lucide-react';
+import { Video, MessageSquare, Star, MapPin, Send, ArrowLeft, Phone } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 export default function Consult() {
@@ -105,6 +105,19 @@ export default function Consult() {
             <CardFooter className="grid grid-cols-2 gap-3 border-t border-slate-100 bg-slate-50/50 p-4">
               <Button variant="outline" onClick={() => setActiveChat(doctor)}>
                 <MessageSquare className="mr-2 h-4 w-4" /> Chat
+              </Button>
+              <Button variant="outline" onClick={() => {
+                const phone = doctor.phone;
+                if (phone) {
+                  window.location.href = `tel:${phone}`;
+                  toast({
+                    title: "Calling Doctor",
+                    description: `Initiating call to ${doctor.name} at ${phone}`,
+                  });
+                }
+              }}>
+                <Phone className="mr-2 h-4 w-4" />
+                Call
               </Button>
               
               <Dialog>

@@ -9,49 +9,35 @@ export interface Doctor {
   rating: number;
   image: string;
   available: boolean;
+  phone: string;
+  email: string;
 }
 
 export const MOCK_DOCTORS: Doctor[] = [
   {
     id: 1,
-    name: "Dr. Anjali Sharma",
+    name: "Dr. Kishore S",
     specialization: "Dermatologist (MD)",
     experience: "12 Years",
-    location: "Mumbai, India",
+    location: "India",
     rating: 4.9,
     image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300&h=300",
     available: true,
+    phone: "8220411874",
+    email: "ks6700822@gmail.com",
   },
   {
     id: 2,
-    name: "Dr. Rajesh Gupta",
+    name: "Dr. Liwis Nishanth A",
     specialization: "Cosmetic Dermatologist",
-    experience: "8 Years",
-    location: "Delhi, India",
+    experience: "0 Years",
+    location: "India",
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=300&h=300",
     available: true,
+    phone: "9943397972",
+    email: "liwisnishanth2023@gmail.com",
   },
-  {
-    id: 3,
-    name: "Dr. Sarah Jenkins",
-    specialization: "Pediatric Dermatology",
-    experience: "15 Years",
-    location: "London, UK",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300&h=300",
-    available: false,
-  },
-  {
-    id: 4,
-    name: "Dr. Vikram Singh",
-    specialization: "Skin Cancer Specialist",
-    experience: "20 Years",
-    location: "Bangalore, India",
-    rating: 5.0,
-    image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=300&h=300",
-    available: true,
-  }
 ];
 
 export interface DiseaseTip {
