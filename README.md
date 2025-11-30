@@ -73,8 +73,8 @@ This project demonstrates:
 ✅ Production-ready deployment
 
 ## 👥 Team
-- **Kishore S** - Full Stack Developer
-- **Liwis Nishanth A** - AI/ML Developer
+- **Kishore S** - Full Stack Developer / DevOps Engineer
+- **Liwis Nishanth A** - MERN Stack Developer / Devops Engineer
 
 ---
 **Ready for evaluation!** 🚀
