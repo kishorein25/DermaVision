@@ -10,7 +10,6 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ScanLine, ArrowRight, Loader2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import generatedImage from '@assets/generated_images/clean_medical_technology_background_with_teal_abstract_shapes.png';
 
 // --- Schemas ---
 const loginSchema = z.object({
@@ -91,14 +90,7 @@ export default function AuthPage() {
   return (
     <div className="min-h-screen w-full flex">
       {/* Left Side - Hero Image */}
-      <div className="hidden lg:flex lg:w-1/2 relative bg-slate-900">
-        <div className="absolute inset-0 z-0">
-            <img 
-                src={generatedImage} 
-                alt="Medical Technology Background" 
-                className="w-full h-full object-cover opacity-80"
-            />
-        </div>
+      <div className="hidden lg:flex lg:w-1/2 relative bg-gradient-to-br from-teal-600 to-teal-900">
         <div className="absolute inset-0 bg-gradient-to-t from-teal-900/90 to-transparent z-10" />
         <div className="relative z-20 flex flex-col justify-between p-12 text-white h-full w-full">
           <div className="flex items-center gap-2">
