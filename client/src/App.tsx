@@ -4,32 +4,40 @@ import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
 import { AuthProvider, useAuth } from "@/lib/auth";
 import Layout from "@/components/Layout";
+import { Suspense, lazy } from "react";
+import { Loader2 } from "lucide-react";
 
-// Pages
-import AuthPage from "@/pages/auth";
-import Dashboard from "@/pages/dashboard";
-import SkinScan from "@/pages/skin-scan";
-import SearchTips from "@/pages/search-tips";
-import History from "@/pages/history";
-import Consult from "@/pages/consult";
-import CalendarPage from "@/pages/calendar";
-import Profile from "@/pages/profile";
-import NotFound from "@/pages/not-found";
+// Lazy Load Pages for Performance
+const AuthPage = lazy(() => import("@/pages/auth"));
+const Dashboard = lazy(() => import("@/pages/dashboard"));
+const SkinScan = lazy(() => import("@/pages/skin-scan"));
+const SearchTips = lazy(() => import("@/pages/search-tips"));
+const History = lazy(() => import("@/pages/history"));
+const Consult = lazy(() => import("@/pages/consult"));
+const CalendarPage = lazy(() => import("@/pages/calendar"));
+const Profile = lazy(() => import("@/pages/profile"));
+const NotFound = lazy(() => import("@/pages/not-found"));
+
+function PageLoader() {
+  return (
+    <div className="flex items-center justify-center min-h-[60vh]">
+      <Loader2 className="h-8 w-8 animate-spin text-primary" />
+    </div>
+  );
+}
 
 function ProtectedRoute({ component: Component, ...rest }: any) {
   const { isAuthenticated } = useAuth();
-  const [, setLocation] = useLocation();
 
   if (!isAuthenticated) {
-    // In a real app, we'd redirect here, but to avoid flickers on refresh during dev
-    // we can just show the auth page or return null and let useEffect handle it
-    // For now, let's render AuthPage if not authenticated for simplicity
-    return <AuthPage />;
+    return <Suspense fallback={<PageLoader />}><AuthPage /></Suspense>;
   }
 
   return (
     <Layout>
-      <Component {...rest} />
+      <Suspense fallback={<PageLoader />}>
+        <Component {...rest} />
+      </Suspense>
     </Layout>
   );
 }
@@ -37,7 +45,9 @@ function ProtectedRoute({ component: Component, ...rest }: any) {
 function Router() {
   return (
     <Switch>
-      <Route path="/auth" component={AuthPage} />
+      <Route path="/auth">
+        <Suspense fallback={<PageLoader />}><AuthPage /></Suspense>
+      </Route>
       <Route path="/dashboard">
         {() => <ProtectedRoute component={Dashboard} />}
       </Route>
@@ -64,7 +74,9 @@ function Router() {
       <Route path="/">
         {() => {
           const { isAuthenticated } = useAuth();
-          return isAuthenticated ? <ProtectedRoute component={Dashboard} /> : <AuthPage />;
+          return isAuthenticated ? 
+            <ProtectedRoute component={Dashboard} /> : 
+            <Suspense fallback={<PageLoader />}><AuthPage /></Suspense>;
         }}
       </Route>
 

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
@@ -10,10 +10,12 @@ export default function SearchTips() {
   const [query, setQuery] = useState('');
   const [selectedDisease, setSelectedDisease] = useState<DiseaseTip | null>(null);
 
-  const filteredDiseases = Object.values(DISEASE_TIPS).filter(d => 
-    d.name.toLowerCase().includes(query.toLowerCase()) || 
-    d.description.toLowerCase().includes(query.toLowerCase())
-  );
+  const filteredDiseases = useMemo(() => {
+    return Object.values(DISEASE_TIPS).filter(d => 
+      d.name.toLowerCase().includes(query.toLowerCase()) || 
+      d.description.toLowerCase().includes(query.toLowerCase())
+    );
+  }, [query]);
 
   return (
     <div className="space-y-8">
