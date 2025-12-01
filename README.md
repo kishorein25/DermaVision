@@ -10,7 +10,7 @@ DermaVision is an intelligent medical consultation platform that combines AI-pow
 - Automatic disease detection and severity classification
 - Real-time analysis results with treatment recommendations
 
-### 👨‍⚕️ Real Doctor Consultation
+### 👨‍⚕️ Real Doctor Consultation ( Demo Doctors - Project Admins )
 - **Dr. Kishore S** - Phone: 8220411874 | Email: ks6700822@gmail.com
 - **Dr. Liwis Nishanth A** - Phone: 9943397972 | Email: liwisnishanth2023@gmail.com
 - Real-time chat via Zoho SalesIQ widget
