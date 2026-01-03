@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Brain, Heart, Sparkles, Play, RotateCcw } from 'lucide-react';
@@ -11,33 +11,23 @@ export default function Games() {
   const [flippedCards, setFlippedCards] = useState<number[]>([]);
   const [matchedCards, setMatchedCards] = useState<number[]>([]);
 
+  useEffect(() => {
+    if (!breathingActive) return;
+
+    const phases: Array<'inhale' | 'hold' | 'exhale'> = ['inhale', 'hold', 'exhale'];
+    let currentPhaseIndex = 0;
+    
+    const interval = setInterval(() => {
+      currentPhaseIndex = (currentPhaseIndex + 1) % phases.length;
+      setBreathingPhase(phases[currentPhaseIndex]);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [breathingActive]);
+
   const startBreathing = () => {
     setBreathingActive(true);
-    let phase: 'inhale' | 'hold' | 'exhale' = 'inhale';
-    
-    const breathCycle = () => {
-      if (phase === 'inhale') {
-        setBreathingPhase('inhale');
-        setTimeout(() => {
-          phase = 'hold';
-          breathCycle();
-        }, 4000);
-      } else if (phase === 'hold') {
-        setBreathingPhase('hold');
-        setTimeout(() => {
-          phase = 'exhale';
-          breathCycle();
-        }, 4000);
-      } else {
-        setBreathingPhase('exhale');
-        setTimeout(() => {
-          phase = 'inhale';
-          breathCycle();
-        }, 4000);
-      }
-    };
-    
-    breathCycle();
+    setBreathingPhase('inhale');
   };
 
   const initMemoryGame = () => {
@@ -95,7 +85,7 @@ export default function Games() {
           ) : (
             <div className="space-y-6">
               <div className="flex flex-col items-center justify-center py-8">
-                <div className={`w-32 h-32 rounded-full border-4 transition-all duration-4000 ${
+                <div className={`w-32 h-32 rounded-full border-4 transition-all duration-1000 ${
                   breathingPhase === 'inhale' ? 'scale-150 border-blue-500 bg-blue-100' :
                   breathingPhase === 'hold' ? 'scale-150 border-purple-500 bg-purple-100' :
                   'scale-100 border-green-500 bg-green-100'

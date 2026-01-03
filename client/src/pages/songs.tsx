@@ -5,6 +5,8 @@ import { Music, Play, Pause, Volume2, Brain, Moon, Zap, Heart } from 'lucide-rea
 import { Slider } from '@/components/ui/slider';
 import { Badge } from '@/components/ui/badge';
 
+import { LucideIcon } from 'lucide-react';
+
 interface BinauralTrack {
   id: number;
   name: string;
@@ -13,7 +15,7 @@ interface BinauralTrack {
   benefits: string[];
   category: 'focus' | 'relaxation' | 'sleep' | 'meditation';
   duration: string;
-  icon: any;
+  icon: LucideIcon;
   color: string;
   bgColor: string;
 }
