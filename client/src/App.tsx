@@ -16,6 +16,9 @@ const History = lazy(() => import("@/pages/history"));
 const Consult = lazy(() => import("@/pages/consult"));
 const CalendarPage = lazy(() => import("@/pages/calendar"));
 const Profile = lazy(() => import("@/pages/profile"));
+const Games = lazy(() => import("@/pages/games"));
+const Chatbot = lazy(() => import("@/pages/chatbot"));
+const Songs = lazy(() => import("@/pages/songs"));
 const NotFound = lazy(() => import("@/pages/not-found"));
 
 function PageLoader() {
@@ -68,6 +71,15 @@ function Router() {
       </Route>
       <Route path="/profile">
         {() => <ProtectedRoute component={Profile} />}
+      </Route>
+      <Route path="/games">
+        {() => <ProtectedRoute component={Games} />}
+      </Route>
+      <Route path="/chatbot">
+        {() => <ProtectedRoute component={Chatbot} />}
+      </Route>
+      <Route path="/songs">
+        {() => <ProtectedRoute component={Songs} />}
       </Route>
       
       {/* Default Route */}

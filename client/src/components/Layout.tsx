@@ -11,7 +11,10 @@ import {
   User, 
   LogOut, 
   Menu,
-  X
+  X,
+  Gamepad2,
+  MessageCircle,
+  Music
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -28,6 +31,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { icon: History, label: 'History', href: '/history' },
     { icon: Stethoscope, label: 'Doctor Consult', href: '/consult' },
     { icon: Calendar, label: 'Calendar', href: '/calendar' },
+    { icon: Gamepad2, label: 'Wellness Games', href: '/games' },
+    { icon: MessageCircle, label: 'Mental Chatbot', href: '/chatbot' },
+    { icon: Music, label: 'Binaural Songs', href: '/songs' },
     { icon: User, label: 'Profile', href: '/profile' },
   ];
 
