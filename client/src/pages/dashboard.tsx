@@ -1,7 +1,7 @@
 import { useAuth } from '@/lib/auth';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ScanLine, Calendar, Activity, ArrowRight } from 'lucide-react';
+import { ScanLine, Calendar, Activity, ArrowRight, Gamepad2, MessageCircle, Music } from 'lucide-react';
 import { Link } from 'wouter';
 
 export default function Dashboard() {
@@ -68,6 +68,9 @@ export default function Dashboard() {
           { title: "Consult Doctor", desc: "Book an appointment", href: "/consult", icon: Activity, color: "text-teal-600", bg: "bg-teal-50" },
           { title: "Calendar", desc: "View schedule", href: "/calendar", icon: Calendar, color: "text-purple-600", bg: "bg-purple-50" },
           { title: "History", desc: "Past records", href: "/history", icon: Activity, color: "text-orange-600", bg: "bg-orange-50" },
+          { title: "Wellness Games", desc: "Mind-free relaxation games", href: "/games", icon: Gamepad2, color: "text-pink-600", bg: "bg-pink-50" },
+          { title: "Mental Chatbot", desc: "Talk about your feelings", href: "/chatbot", icon: MessageCircle, color: "text-green-600", bg: "bg-green-50" },
+          { title: "Binaural Songs", desc: "Relaxing sound therapy", href: "/songs", icon: Music, color: "text-indigo-600", bg: "bg-indigo-50" },
         ].map((item) => (
           <Link key={item.title} href={item.href}>
             <a className="block group">
