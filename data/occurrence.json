@@ -1,0 +1,296 @@
+{
+  "actinic_keratosis": {
+    "prevalence": "Common in fair-skinned people over 40; ~40% of light-skinned adults",
+    "global_rate": "Affects millions worldwide, particularly in sunny climates",
+    "peak_age": "45+ years",
+    "gender": "Males slightly more affected",
+    "at_risk": "Fair skin, sun exposure, age"
+  },
+  "basal_cell_carcinoma": {
+    "prevalence": "Most common skin cancer; ~2-3 million cases/year in US alone",
+    "global_rate": "80% of all skin cancers are BCC",
+    "peak_age": "50+ years",
+    "gender": "Males more affected",
+    "at_risk": "Fair skin, sun exposure, age, immunosuppression"
+  },
+  "darier_disease": {
+    "prevalence": "Rare genetic disorder affecting ~1 in 100,000 people",
+    "global_rate": "Fewer than 100,000 cases worldwide",
+    "peak_age": "Appears in adolescence/early adulthood",
+    "gender": "Males and females equally",
+    "at_risk": "Family history of the condition"
+  },
+  "dermatofibroma": {
+    "prevalence": "Very common benign growth, affects ~1% of adults",
+    "global_rate": "Common worldwide",
+    "peak_age": "Adults 30-50",
+    "gender": "Females more affected (2:1)",
+    "at_risk": "History of insect bites or minor injuries"
+  },
+  "epidermolysis_bullosa": {
+    "prevalence": "Rare genetic condition affected ~500,000 people worldwide",
+    "global_rate": "1 in 50,000 births",
+    "peak_age": "Present from birth",
+    "gender": "Males and females equally",
+    "at_risk": "Family history, genetic inheritance"
+  },
+  "hailey_hailey": {
+    "prevalence": "Rare genetic condition affecting ~1 in 100,000",
+    "global_rate": "Fewer than 10,000 cases worldwide",
+    "peak_age": "Adults 20-40",
+    "gender": "Males and females equally",
+    "at_risk": "Family history, heat, sweating, friction"
+  },
+  "herpes_simplex": {
+    "prevalence": "Extremely common - ~67% of world population under 50 carries HSV-1",
+    "global_rate": "3.7 billion people under age 50",
+    "peak_age": "Any age",
+    "gender": "Both equally",
+    "at_risk": "Anyone - highly contagious"
+  },
+  "impetigo": {
+    "prevalence": "Very common in children aged 2-5 years",
+    "global_rate": "162 million children affected worldwide",
+    "peak_age": "Children (2-5 years)",
+    "gender": "Both equally",
+    "at_risk": "Children, crowded settings, poor hygiene, hot climates"
+  },
+  "larva_migrans": {
+    "prevalence": "Common in tropical/subtropical regions",
+    "global_rate": "Millions at risk in warm climates",
+    "peak_age": "Children and travelers",
+    "gender": "Both equally",
+    "at_risk": "Barefoot walking, tropical beaches, contaminated soil"
+  },
+  "leprosy": {
+    "prevalence": "Declining globally - ~130,000 new cases/year",
+    "global_rate": "Endemic in parts of Asia, Africa, South America",
+    "peak_age": "Adults 20-40",
+    "gender": "Males more affected (2:1)",
+    "at_risk": "Prolonged close contact, low immunity, endemic regions"
+  },
+  "lichen_planus": {
+    "prevalence": "Affects ~1-2% of world population",
+    "global_rate": "Common worldwide",
+    "peak_age": "Adults 30-60",
+    "gender": "Males slightly more for skin, females for oral form",
+    "at_risk": "Genetic tendency, hepatitis C, medications"
+  },
+  "lupus": {
+    "prevalence": "Affects ~5 million people worldwide",
+    "global_rate": "1 in 1,000 people",
+    "peak_age": "Women 15-44",
+    "gender": "Females 9:1 more affected",
+    "at_risk": "Women, certain ethnicities, family history, sun exposure"
+  },
+  "melanoma": {
+    "prevalence": "~325,000 new cases/year globally",
+    "global_rate": "1 in 25 people at risk (white population)",
+    "peak_age": "Adults 50-80; increasing in younger adults",
+    "gender": "Males slightly more",
+    "at_risk": "Fair skin, sunburns, moles, family history, tanning beds"
+  },
+  "molluscum_contagiosum": {
+    "prevalence": "Common in children; affects ~1-2% of population",
+    "global_rate": "Common worldwide",
+    "peak_age": "Children 1-10, sexually active adults",
+    "gender": "Both equally in children",
+    "at_risk": "Children, swimmers, eczema patients, immunocompromised"
+  },
+  "mycosis_fungoides": {
+    "prevalence": "Rare - ~1 in 100,000 people",
+    "global_rate": "Accounts for <1% of skin cancers",
+    "peak_age": "Adults 50+",
+    "gender": "Males 2:1 more affected",
+    "at_risk": "Men over 50, family history"
+  },
+  "neurofibromatosis": {
+    "prevalence": "Affects ~1 in 3,000 people (NF1)",
+    "global_rate": "2.5 million people worldwide",
+    "peak_age": "Present at birth/early childhood",
+    "gender": "Both equally",
+    "at_risk": "Family history, genetic inheritance"
+  },
+  "papilomatosis": {
+    "prevalence": "Rare condition",
+    "global_rate": "Fewer than 1 in 100,000",
+    "peak_age": "Young adults",
+    "gender": "Both equally",
+    "at_risk": "Family tendency, hormonal factors"
+  },
+  "pediculosis_capitis": {
+    "prevalence": "Affects 6-12 million children/year in US",
+    "global_rate": "Millions affected worldwide, especially school children",
+    "peak_age": "Children 3-11",
+    "gender": "Females slightly more (longer hair)",
+    "at_risk": "School children, shared items, close contact"
+  },
+  "pityriasis_rosea": {
+    "prevalence": "Affects ~1% of population",
+    "global_rate": "Common worldwide",
+    "peak_age": "Teenagers and young adults 10-35",
+    "gender": "Females slightly more",
+    "at_risk": "Mostly unknown trigger, viral association"
+  },
+  "porokeratosis": {
+    "prevalence": "Rare condition",
+    "global_rate": "Fewer than 1 in 100,000",
+    "peak_age": "Adults, often after 30",
+    "gender": "Males more affected",
+    "at_risk": "Immune suppression, sun exposure, genetic"
+  },
+  "psoriasis": {
+    "prevalence": "Affects ~2-3% of world population (125+ million people)",
+    "global_rate": "2-3% of population worldwide",
+    "peak_age": "Two peaks: 20-30 and 50-60",
+    "gender": "Both equally",
+    "at_risk": "Family history, stress, infections, smoking, alcohol"
+  },
+  "seborrheic_keratosis": {
+    "prevalence": "Extremely common - affects virtually everyone over 50",
+    "global_rate": "Most common benign skin tumor in adults",
+    "peak_age": "50+ years, increasing with age",
+    "gender": "Both equally",
+    "at_risk": "Age, genetics, family history"
+  },
+  "squamous_cell_carcinoma": {
+    "prevalence": "Second most common skin cancer; ~1 million cases/year in US",
+    "global_rate": "~15-20% of skin cancers",
+    "peak_age": "50+ years",
+    "gender": "Males more affected",
+    "at_risk": "Sun exposure, fair skin, chronic wounds, immunosuppression"
+  },
+  "tinea_corporis": {
+    "prevalence": "Very common globally",
+    "global_rate": "~20-25% of world population affected by fungal infections",
+    "peak_age": "Any age",
+    "gender": "Both equally",
+    "at_risk": "Contaminated animals, hot humid climates, shared items"
+  },
+  "tinea_nigra": {
+    "prevalence": "Rare condition",
+    "global_rate": "Fewer than 1 in 100,000",
+    "peak_age": "Children and young adults",
+    "gender": "Both equally",
+    "at_risk": "Tropical climates, soil contact, barefoot gardening"
+  },
+  "tungiasis": {
+    "prevalence": "Endemic in parts of Caribbean, South America, Africa",
+    "global_rate": "Millions at risk in endemic regions",
+    "peak_age": "Children and adults in endemic areas",
+    "gender": "Both equally",
+    "at_risk": "Barefoot walking, sandy soils, poverty, endemic areas"
+  },
+  "vascular_lesion": {
+    "prevalence": "Common - many people have some form",
+    "global_rate": "Varies by type",
+    "peak_age": "From birth to adulthood",
+    "gender": "Females for some types",
+    "at_risk": "Genetics, age, pregnancy hormones"
+  },
+  "nevus": {
+    "prevalence": "Most adults have 10-40 moles",
+    "global_rate": "Universal - almost everyone has moles",
+    "peak_age": "Moles develop through childhood and adolescence",
+    "gender": "Both equally",
+    "at_risk": "Fair skin, sun exposure, genetics"
+  },
+  "pigmented_benign_keratosis": {
+    "prevalence": "Common in adults over 40",
+    "global_rate": "Increasing with age",
+    "peak_age": "40+ years",
+    "gender": "Both equally",
+    "at_risk": "Age, sun exposure, genetics"
+  },
+  "healthy_normal": {
+    "prevalence": "Healthy skin is the norm",
+    "global_rate": "Majority of population has healthy skin",
+    "peak_age": "All ages",
+    "gender": "Both",
+    "at_risk": "None"
+  },
+  "acne": {
+    "prevalence": "Very common - most common skin condition worldwide",
+    "global_rate": "~85% of people aged 12-24 experience some acne; adults too",
+    "peak_age": "Teenagers (12-24) and adult women",
+    "gender": "More in teenage males; adult acne more common in women",
+    "at_risk": "Hormonal changes, oily skin, family history, stress"
+  },
+  "hyperpigmentation": {
+    "prevalence": "Very common across all skin types",
+    "global_rate": "Melasma affects ~1-5% of people; dark spots very widespread",
+    "peak_age": "Adults (20-40), especially women",
+    "gender": "More common in women (melasma)",
+    "at_risk": "Sun exposure, pregnancy/hormones, post-inflammatory marks, darker skin tones"
+  },
+  "eczema": {
+    "prevalence": "Very common - affects ~10-20% of children, 1-3% of adults",
+    "global_rate": "~230 million people worldwide",
+    "peak_age": "Early childhood (starts before age 5)",
+    "gender": "Slightly more in boys in childhood",
+    "at_risk": "Family history, asthma/allergies, dry climate"
+  },
+  "urticaria": {
+    "prevalence": "Very common - ~20% of people experience hives at some point",
+    "global_rate": "Around 1 in 5 people",
+    "peak_age": "Any age",
+    "gender": "Both equally",
+    "at_risk": "Allergic people, recent infections, new medicines"
+  },
+  "contact_dermatitis": {
+    "prevalence": "Very common - most common occupational skin disease",
+    "global_rate": "~15-20% of people affected",
+    "peak_age": "Working-age adults",
+    "gender": "Slightly more in women",
+    "at_risk": "Jobs with chemicals/soaps, jewellery wearers"
+  },
+  "alopecia": {
+    "prevalence": "Common - male pattern affects up to 50% of men by age 50",
+    "global_rate": "Hundreds of millions worldwide",
+    "peak_age": "Adulthood; patchy type any age",
+    "gender": "More in men (balding)",
+    "at_risk": "Family history, stress, iron deficiency, post-illness"
+  },
+  "nail_fungus": {
+    "prevalence": "Common - up to 15% of adults",
+    "global_rate": "Common in adults over 40",
+    "peak_age": "Adults (increases with age)",
+    "gender": "Slightly more in men",
+    "at_risk": "Athelete's foot, diabetes, swimming pools, tight shoes"
+  },
+  "scabies": {
+    "prevalence": "Widespread - millions of cases yearly",
+    "global_rate": "~200 million affected globally",
+    "peak_age": "Any age; common in children",
+    "gender": "Both equally",
+    "at_risk": "Close contact living, nursing homes, shared bedding"
+  },
+  "vasculitis": {
+    "prevalence": "Rare (uncommon) - but important",
+    "global_rate": "~40-60 per million people per year",
+    "peak_age": "Adults 40-60",
+    "gender": "Both; some types more in men",
+    "at_risk": "Autoimmune diseases, some infections/medicines"
+  },
+  "bullous_disease": {
+    "prevalence": "Rare (uncommon)",
+    "global_rate": "Few cases per million in autoimmune type",
+    "peak_age": "Adults (autoimmune type)",
+    "gender": "Both equally",
+    "at_risk": "Genetic types in infants, autoimmune tendency"
+  },
+  "drug_eruption": {
+    "prevalence": "Common - most people see minor rashes with some medicines",
+    "global_rate": "~2-5% of medicine users",
+    "peak_age": "Any age",
+    "gender": "Both equally",
+    "at_risk": "New medicines, antibiotics, anti-seizure drugs"
+  },
+  "systemic_disease": {
+    "prevalence": "Depends on the underlying condition",
+    "global_rate": "Wide range - common for deficiency types",
+    "peak_age": "Adults",
+    "gender": "Both equally",
+    "at_risk": "Diabetes, thyroid disease, poor nutrition, chronic illness"
+  }
+}

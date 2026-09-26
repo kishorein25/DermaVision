@@ -1,0 +1,791 @@
+{
+  "actinic_keratosis": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Cryotherapy (freezing)",
+      "Chemical peels",
+      "Topical 5-Fluorouracil 5% cream daily for 2-4 weeks"
+    ],
+    "moderate": [
+      "Imiquimod 5% cream",
+      "Diclofenac gel",
+      "Photodynamic therapy"
+    ],
+    "severe": [
+      "Curettage and electrodesiccation",
+      "Laser therapy",
+      "Surgical removal"
+    ],
+    "when_to_see_doctor": "See dermatologist immediately for any persistent rough scaly patch",
+    "notes": "Can progress to squamous cell carcinoma if untreated"
+  },
+  "basal_cell_carcinoma": {
+    "specialist": "Dermatologist (Immediate)",
+    "mild": [
+      "None - requires professional removal"
+    ],
+    "moderate": [
+      "Mohs surgery (gold standard)",
+      "Excisional surgery",
+      "Photodynamic therapy"
+    ],
+    "severe": [
+      "Radiation therapy",
+      "Targeted therapy (vismodegib)",
+      "Immunotherapy for advanced cases"
+    ],
+    "when_to_see_doctor": "See dermatologist IMMEDIATELY - this requires professional treatment",
+    "notes": "Rarely spreads but can damage surrounding tissue"
+  },
+  "darier_disease": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Moisturizers",
+      "Topical corticosteroids",
+      "Avoid heat and sweating"
+    ],
+    "moderate": [
+      "Retinoids (oral acitretin)",
+      "Topical tretinoin",
+      "Antibiotics for overgrowth"
+    ],
+    "severe": [
+      "Oral retinoids",
+      "Laser therapy",
+      "Dermabrasion"
+    ],
+    "when_to_see_doctor": "See dermatologist for persistent or spreading warty bumps",
+    "notes": "Genetic condition - manage symptoms not cure"
+  },
+  "dermatofibroma": {
+    "specialist": "Dermatologist (optional)",
+    "mild": [
+      "None required - benign growth",
+      "Protect from trauma"
+    ],
+    "moderate": [
+      "Surgical removal if bothersome",
+      "Cryotherapy"
+    ],
+    "severe": [
+      "Excisional biopsy if changing"
+    ],
+    "when_to_see_doctor": "See doctor if bump changes, bleeds, or grows rapidly",
+    "notes": "Almost always benign - no treatment needed"
+  },
+  "epidermolysis_bullosa": {
+    "specialist": "Dermatologist + Specialist Care Team",
+    "mild": [
+      "Gentle skin care",
+      "Blisters puncture and protect",
+      "Dressings with petroleum jelly"
+    ],
+    "moderate": [
+      "Specialized wound care",
+      "Non-stick dressings",
+      "Antibiotic ointments if infected"
+    ],
+    "severe": [
+      "Genetic therapy trials",
+      "Multidisciplinary care",
+      "Pain management"
+    ],
+    "when_to_see_doctor": "See specialist team immediately - this is a serious genetic condition",
+    "notes": "Requires lifelong specialist care"
+  },
+  "hailey_hailey": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Keep folds dry",
+      "Non-irritating soaps",
+      "Antibacterial cleansers"
+    ],
+    "moderate": [
+      "Topical corticosteroids",
+      "Topical antibiotics",
+      "Antifungals"
+    ],
+    "severe": [
+      "Oral retinoids",
+      "Laser ablation",
+      "Botulinum toxin injections"
+    ],
+    "when_to_see_doctor": "See dermatologist for recurrence or spreading",
+    "notes": "Chronic relapsing condition - avoid friction and heat"
+  },
+  "herpes_simplex": {
+    "specialist": "Doctor or Dermatologist",
+    "mild": [
+      "Acyclovir cream 5%",
+      "Cold sore patches",
+      "Keep area clean and dry"
+    ],
+    "moderate": [
+      "Oral acyclovir",
+      "Valacyclovir tablets",
+      "Famciclovir"
+    ],
+    "severe": [
+      "Intravenous antivirals (severe cases)",
+      "Suppressive therapy for frequent outbreaks"
+    ],
+    "when_to_see_doctor": "See doctor if eye involvement, frequent outbreaks, or weakened immunity",
+    "notes": "Contagious - avoid touching sores and sharing items"
+  },
+  "impetigo": {
+    "specialist": "Doctor",
+    "mild": [
+      "Mupirocin 2% ointment",
+      "Gentle washing with antibacterial soap",
+      "Keep sores covered"
+    ],
+    "moderate": [
+      "Oral antibiotics (cephalexin, dicloxacillin)",
+      "Topical retapamulin"
+    ],
+    "severe": [
+      "Oral antibiotics for 5-10 days",
+      "Follow-up if not improving in 48-72 hours"
+    ],
+    "when_to_see_doctor": "See doctor early - highly contagious and needs antibiotics",
+    "notes": "Very contagious - wash hands and do not share towels"
+  },
+  "larva_migrans": {
+    "specialist": "Doctor or Dermatologist",
+    "mild": [
+      "Oral albendazole",
+      "Oral ivermectin",
+      "Topical thiabendazole"
+    ],
+    "moderate": [
+      "Cryotherapy to track ends",
+      "Oral anti-parasitics"
+    ],
+    "severe": [
+      "Oral medication course",
+      "Antihistamines for itching"
+    ],
+    "when_to_see_doctor": "See doctor as soon as possible for anti-parasitic treatment",
+    "notes": "Do not walk barefoot in affected areas"
+  },
+  "leprosy": {
+    "specialist": "Infectious Disease Specialist",
+    "mild": [
+      "Multidrug therapy (MDT) - WHO protocol",
+      "Dapsone + rifampicin",
+      "Clofazimine"
+    ],
+    "moderate": [
+      "Same MDT for longer duration",
+      "Physiotherapy for nerve damage"
+    ],
+    "severe": [
+      "Specialized hospital treatment",
+      "Long-term MDT",
+      "Rehabilitation services"
+    ],
+    "when_to_see_doctor": "See doctor IMMEDIATELY for any suspected leprosy - early treatment prevents damage",
+    "notes": "Highly treatable - complete treatment is critical"
+  },
+  "lichen_planus": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Topical corticosteroids",
+      "Antihistamines for itching",
+      "Cool compresses"
+    ],
+    "moderate": [
+      "Stronger topical corticosteroids",
+      "Phototherapy",
+      "Oral corticosteroids short course"
+    ],
+    "severe": [
+      "Oral retinoids",
+      "Immune-modulating medications",
+      "Phototherapy"
+    ],
+    "when_to_see_doctor": "See dermatologist if widespread, painful, or persistent",
+    "notes": "May resolve without treatment in 6-18 months"
+  },
+  "lupus": {
+    "specialist": "Rheumatologist + Dermatologist",
+    "mild": [
+      "Sun protection (critical)",
+      "Topical corticosteroids",
+      "Antimalarial drugs (hydroxychloroquine)"
+    ],
+    "moderate": [
+      "Hydroxychloroquine",
+      "Topical tacrolimus",
+      "Low-potency corticosteroids"
+    ],
+    "severe": [
+      "Immunosuppressants",
+      "Systemic corticosteroids",
+      "Specialist autoimmune care"
+    ],
+    "when_to_see_doctor": "See doctor IMMEDIATELY - lupus requires ongoing medical management",
+    "notes": "Autoimmune disease - machine diagnosis aids, doctor confirmation essential"
+  },
+  "melanoma": {
+    "specialist": "Dermatologist (URGENT)",
+    "mild": [
+      "NONE - Melanoma is a medical emergency"
+    ],
+    "moderate": [
+      "Surgical excision with margins",
+      "Sentinel lymph node biopsy"
+    ],
+    "severe": [
+      "Immunotherapy (pembrolizumab)",
+      "Targeted therapy (BRAF inhibitors)",
+      "Radiation",
+      "Chemotherapy"
+    ],
+    "when_to_see_doctor": "SEE DOCTOR AS EMERGENCY - Melanoma can be fatal if caught late",
+    "notes": "5-year survival >99% when caught early, much lower when late"
+  },
+  "molluscum_contagiosum": {
+    "specialist": "Dermatologist (optional)",
+    "mild": [
+      "May resolve on its own in 6-12 months",
+      "Avoid scratching",
+      "Good hygiene"
+    ],
+    "moderate": [
+      "Cryotherapy",
+      "Curretage",
+      "Cantharidin application"
+    ],
+    "severe": [
+      "Laser therapy",
+      "Oral cimetidine in children",
+      "Topical imiquimod"
+    ],
+    "when_to_see_doctor": "See doctor for rapid spread, pain, or when affecting face",
+    "notes": "Contagious - avoid sharing towels and direct contact"
+  },
+  "mycosis_fungoides": {
+    "specialist": "Dermatologist + Oncologist",
+    "mild": [
+      "Topical corticosteroids",
+      "Phototherapy (PUVA, narrowband UVB)",
+      "Moisturizers"
+    ],
+    "moderate": [
+      "Phototherapy",
+      "Topical mechlorethamine",
+      "Interferon therapy"
+    ],
+    "severe": [
+      "Systemic therapy",
+      "Radiation",
+      "Photopheresis",
+      "Specialist oncology care"
+    ],
+    "when_to_see_doctor": "See dermatologist/oncologist for persistent itchy skin patches",
+    "notes": "Rare type of lymphoma - requires specialist evaluation"
+  },
+  "neurofibromatosis": {
+    "specialist": "Neurologist + Dermatologist",
+    "mild": [
+      "Monitoring",
+      "Protection from injury",
+      "Regular check-ups"
+    ],
+    "moderate": [
+      "Surgical removal of problematic tumors",
+      "Pain management"
+    ],
+    "severe": [
+      "Specialist genetic care",
+      "Surgery for complications",
+      "Multidisciplinary team"
+    ],
+    "when_to_see_doctor": "See specialist for new symptoms, rapid growth, or changes",
+    "notes": "Genetic condition - lifelong monitoring needed"
+  },
+  "papilomatosis": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Topical antifungal creams",
+      "Gentle exfoliation",
+      "Good hygiene"
+    ],
+    "moderate": [
+      "Topical retinoids",
+      "Antifungal treatments",
+      "Hypopigmenting agents"
+    ],
+    "severe": [
+      "Oral itraconazole",
+      "Retinoid therapy"
+    ],
+    "when_to_see_doctor": "See dermatologist if patches spread or persist",
+    "notes": "Benign condition - mainly cosmetic concern"
+  },
+  "pediculosis_capitis": {
+    "specialist": "Doctor or Pharmacist",
+    "mild": [
+      "Permethrin 1% lotion",
+      "Nit combing",
+      "Fine-tooth comb daily"
+    ],
+    "moderate": [
+      "Malathion lotion",
+      "Benzyl alcohol",
+      "Ivermectin lotion"
+    ],
+    "severe": [
+      "Oral ivermectin",
+      "Repeated treatments",
+      "Treat all household members"
+    ],
+    "when_to_see_doctor": "See doctor if lice persist after treatment",
+    "notes": "Contagious - treat all close contacts and wash bedding"
+  },
+  "pityriasis_rosea": {
+    "specialist": "Dermatologist (optional)",
+    "mild": [
+      "Moisturizers",
+      "Antihistamines for itching",
+      "Cool showers"
+    ],
+    "moderate": [
+      "Topical corticosteroids",
+      "Sunlight exposure (limited)",
+      "Oral antihistamines"
+    ],
+    "severe": [
+      "Phototherapy",
+      "Oral acyclovir (may help)",
+      "Stronger topical steroids"
+    ],
+    "when_to_see_doctor": "See doctor if rash spreads rapidly or lasts over 3 months",
+    "notes": "Usually resolves on its own in 6-8 weeks"
+  },
+  "porokeratosis": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Moisturizers",
+      "Sun protection",
+      "Topical retinoids"
+    ],
+    "moderate": [
+      "Cryotherapy",
+      "Imiquimod",
+      "Photodynamic therapy"
+    ],
+    "severe": [
+      "Surgical removal",
+      "Laser therapy"
+    ],
+    "when_to_see_doctor": "See dermatologist for annual monitoring due to low cancer risk",
+    "notes": "Monitor regularly - small risk of malignant transformation"
+  },
+  "psoriasis": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Topical corticosteroids",
+      "Calcipotriene cream",
+      "Coal tar preparations",
+      "Moisturizers"
+    ],
+    "moderate": [
+      "Phototherapy (UVB)",
+      "Vitamin D analog + steroid combinations",
+      "Tazarotene"
+    ],
+    "severe": [
+      "Biologics (adalimumab, etanercept)",
+      "Methotrexate",
+      "Cyclosporine",
+      "Apremilast"
+    ],
+    "when_to_see_doctor": "See dermatologist for moderate-to-severe, joint pain, or persistent plaques",
+    "notes": "Chronic but controllable - triggers include stress, cold, infection"
+  },
+  "seborrheic_keratosis": {
+    "specialist": "Dermatologist (optional)",
+    "mild": [
+      "None required - benign",
+      "Moisturizers"
+    ],
+    "moderate": [
+      "Cryotherapy",
+      "Curettage",
+      "Electrodesiccation"
+    ],
+    "severe": [
+      "Surgical removal for cosmetic reasons"
+    ],
+    "when_to_see_doctor": "See doctor if growth changes color, size, or bleeds",
+    "notes": "Benign - no treatment medically required"
+  },
+  "squamous_cell_carcinoma": {
+    "specialist": "Dermatologist (Immediate)",
+    "mild": [
+      "NONE - requires professional removal"
+    ],
+    "moderate": [
+      "Surgical excision",
+      "Mohs surgery",
+      "Curettage and electrocautery"
+    ],
+    "severe": [
+      "Radiation therapy",
+      "Immunotherapy (cemiplimab)",
+      "Chemotherapy for advanced"
+    ],
+    "when_to_see_doctor": "See dermatologist IMMEDIATELY for any non-healing sore",
+    "notes": "Treatable if caught early - can spread if ignored"
+  },
+  "tinea_corporis": {
+    "specialist": "Doctor or Pharmacist",
+    "mild": [
+      "Terbinafine 1% cream",
+      "Clotrimazole 1% cream",
+      "Keep skin dry"
+    ],
+    "moderate": [
+      "Miconazole cream",
+      "Ketoconazole cream",
+      "Oral terbinafine for resistant"
+    ],
+    "severe": [
+      "Oral antifungal (terbinafine/fluconazole)",
+      "Extended treatment 2-4 weeks"
+    ],
+    "when_to_see_doctor": "See doctor if widespread, scalp affected, or not improving in 2 weeks",
+    "notes": "Contagious fungal - treat all contact areas, wash bedding"
+  },
+  "tinea_nigra": {
+    "specialist": "Doctor",
+    "mild": [
+      "Topical antifungals (terbinafine, miconazole)",
+      "Keep palms dry"
+    ],
+    "moderate": [
+      "Selenium sulfide shampoo applications",
+      "Oral antifungals rarely needed"
+    ],
+    "severe": [
+      "Oral itraconazole (rare)",
+      "Extended topical therapy"
+    ],
+    "when_to_see_doctor": "See doctor if patches spread or don't improve in 2-4 weeks",
+    "notes": "Caused by soil fungus - wear gloves when gardening"
+  },
+  "tungiasis": {
+    "specialist": "Doctor",
+    "mild": [
+      "Sterile removal of flea",
+      "Antiseptic cleaning",
+      "Keep area clean"
+    ],
+    "moderate": [
+      "Surgical removal",
+      "Antibiotics if infected",
+      "Tetanus booster check"
+    ],
+    "severe": [
+      "Medical removal procedure",
+      "Pain management"
+    ],
+    "when_to_see_doctor": "See doctor for proper removal - do not try to remove at home",
+    "notes": "Prevent by wearing shoes in endemic areas"
+  },
+  "vascular_lesion": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "None required if benign",
+      "Observation"
+    ],
+    "moderate": [
+      "Laser therapy (pulsed dye)",
+      "Sclerotherapy"
+    ],
+    "severe": [
+      "Vascular surgery consultation",
+      "Laser treatment",
+      "Surgical excision"
+    ],
+    "when_to_see_doctor": "See doctor if lesion grows, bleeds, or changes color",
+    "notes": "Most are benign - laser treatment available for cosmetic concerns"
+  },
+  "nevus": {
+    "specialist": "Dermatologist (for monitoring)",
+    "mild": [
+      "None required",
+      "Monitor monthly",
+      "Sun protection"
+    ],
+    "moderate": [
+      "Dermoscopic monitoring",
+      "Removal for cosmetic reasons"
+    ],
+    "severe": [
+      "Excision if suspicious changes",
+      "Biopsy if ABCDE rule met"
+    ],
+    "when_to_see_doctor": "See doctor if mole changes size, shape, color, or bleeds",
+    "notes": "Use ABCDE rule: Asymmetry, Border, Color, Diameter, Evolving"
+  },
+  "pigmented_benign_keratosis": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "None required",
+      "Sun protection"
+    ],
+    "moderate": [
+      "Biopsy to confirm benign",
+      "Cryotherapy"
+    ],
+    "severe": [
+      "Excision if concerning"
+    ],
+    "when_to_see_doctor": "See doctor to confirm benign - mimics melanoma so needs examination",
+    "notes": "Considered benign but should be examined by professional"
+  },
+  "healthy_normal": {
+    "specialist": "None needed",
+    "mild": [
+      "No treatment needed",
+      "Continue healthy skincare routine"
+    ],
+    "moderate": [
+      "None"
+    ],
+    "severe": [
+      "None"
+    ],
+    "when_to_see_doctor": "No doctor visit needed - your skin appears healthy",
+    "notes": "Continue sun protection and good skincare habits"
+  },
+  "acne": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Gentle cleanser twice daily",
+      "Benzoyl peroxide 2.5-5% gel",
+      "Salicylic acid cleanser"
+    ],
+    "moderate": [
+      "Adapalene 0.1% cream at night",
+      "Clindamycin + benzoyl peroxide combo",
+      "Non-comedogenic moisturizer"
+    ],
+    "severe": [
+      "Oral antibiotics (doctor-prescribed)",
+      "Hormonal therapy if hormonal cause",
+      "Oral isotretinoin (Dermatologist only)"
+    ],
+    "when_to_see_doctor": "See dermatologist if painful cysts, scarring, or no improvement in 6-8 weeks",
+    "notes": "Do not pop pimples - it causes scars and spreads infection"
+  },
+  "hyperpigmentation": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Daily sunscreen SPF 30+",
+      "Moisturizer",
+      "Vitamin C serum (morning)"
+    ],
+    "moderate": [
+      "Hydroquinone 2% (doctor-guided, short term)",
+      "Retinoid cream at night",
+      "Kojic / azelaic acid cream"
+    ],
+    "severe": [
+      "Chemical peels",
+      "Laser / IPL therapy",
+      "Prescription depigmenting cream (doctor)"
+    ],
+    "when_to_see_doctor": "See dermatologist if patches grow, darken, or appear suddenly",
+    "notes": "Sunscreen is the most important step - UV light worsens dark patches"
+  },
+  "eczema": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Fragrance-free moisturizer (ointment type)",
+      "Remove harsh soaps",
+      "Cool compresses for itching"
+    ],
+    "moderate": [
+      "Topical hydrocortisone 1% (short term)",
+      "Antihistamine at night",
+      "Bathing in lukewarm water + moisturise"
+    ],
+    "severe": [
+      "Prescription steroid cream",
+      "Calcineurin inhibitors (tacrolimus)",
+      "Treat infections early"
+    ],
+    "when_to_see_doctor": "See doctor/dermatologist if severe, weeping, or waking with itching",
+    "notes": "Not contagious. Moisturise daily - hydration is the #1 prevention."
+  },
+  "urticaria": {
+    "specialist": "Doctor or Allergist",
+    "mild": [
+      "Oral antihistamine (cetirizine)",
+      "Cold compresses",
+      "Avoid the trigger"
+    ],
+    "moderate": [
+      "Regular antihistamine for 1-4 weeks",
+      "Avoid scratching",
+      "Note foods/medicines that cause it"
+    ],
+    "severe": [
+      "Doctor-prescribed antihistamines",
+      "Emergency care if throat swelling / breathlessness"
+    ],
+    "when_to_see_doctor": "URGENT if swelling of lips/tongue or trouble breathing",
+    "notes": "Not contagious. Individual welts usually fade within 24 hours."
+  },
+  "contact_dermatitis": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Wash area gently",
+      "Bland moisturizer",
+      "Avoid the irritant product"
+    ],
+    "moderate": [
+      "Hydrocortisone 1% cream",
+      "Oral antihistamine",
+      "Barrier cream (zinc oxide)"
+    ],
+    "severe": [
+      "Prescription steroid",
+      "Identify allergen with patch testing"
+    ],
+    "when_to_see_doctor": "See doctor if blistering, spreading, or no improvement in 1 week",
+    "notes": "Not contagious - caused by contact, not germs."
+  },
+  "alopecia": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Gentle hair care - avoid tight styles",
+      "Balanced diet (iron, protein, zinc)",
+      "Stress management"
+    ],
+    "moderate": [
+      "Minoxidil solution (doctor-guided)",
+      "Treat underlying deficiency",
+      "Soft brush / reduce heat"
+    ],
+    "severe": [
+      "Specialist treatment for autoimmune hair loss",
+      "Possible steroid injections (doctor only)"
+    ],
+    "when_to_see_doctor": "See doctor if hair loss is sudden, patchy, or with scalp redness/scaling",
+    "notes": "Not contagious. Many types of hair loss are reversible when treated early."
+  },
+  "nail_fungus": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Keep nails short and dry",
+      "Antifungal nail cream",
+      "Disinfect files/clippers"
+    ],
+    "moderate": [
+      "Oral antifungal (terbinafine - doctor prescription)",
+      "Medicated nail polish",
+      "Wear breathable footwear"
+    ],
+    "severe": [
+      "Long oral course (weeks-months)",
+      "Possible nail removal in stubborn cases",
+      "Treat athlete's foot at same time"
+    ],
+    "when_to_see_doctor": "See doctor for oral treatment - cream alone rarely cures nails",
+    "notes": "Contagious fungal - don't share towels/clippers; treat dif1-2 months to fully cure."
+  },
+  "scabies": {
+    "specialist": "Doctor",
+    "mild": [
+      "Permethrin 5% cream (whole body, neck down)",
+      "Wash all bedding/clothes in hot water",
+      "Treat all family members together"
+    ],
+    "moderate": [
+      "Repeat permethrin after 7 days",
+      "Antihistamine for itching",
+      "Doctor review"
+    ],
+    "severe": [
+      "Oral ivermectin (doctor)",
+      "Second course if reinfection"
+    ],
+    "when_to_see_doctor": "See doctor for exact cream + treat contacts - scratching can cause infection",
+    "notes": "HIGHLY contagious. Itching persists a few weeks after cure (normal)."
+  },
+  "vasculitis": {
+    "specialist": "Doctor / Rheumatologist",
+    "mild": [
+      "Doctor evaluation + monitoring",
+      "Raise legs to ease swelling"
+    ],
+    "moderate": [
+      "Treatment of the cause (infection/medicine)",
+      "Anti-inflammatory treatment (doctor)"
+    ],
+    "severe": [
+      "Specialist immune treatment",
+      "Hospital care if organ involvement"
+    ],
+    "when_to_see_doctor": "See doctor promptly - vasculitis can affect organs if untreated",
+    "notes": "Not contagious. Needs medical diagnosis, not self-treatment."
+  },
+  "bullous_disease": {
+    "specialist": "Dermatologist",
+    "mild": [
+      "Protect blisters from friction",
+      "Clean gently, prevent infection",
+      "Doctor diagnosis first"
+    ],
+    "moderate": [
+      "Blister care (sterile draining only if doctor advises)",
+      "Topical/anti-inflammatory treatment"
+    ],
+    "severe": [
+      "Specialist autoimmune treatment",
+      "Hospital dermatology care"
+    ],
+    "when_to_see_doctor": "See dermatologist early - blistering can be serious",
+    "notes": "Not contagious. Never pop blisters yourself - risk of infection."
+  },
+  "drug_eruption": {
+    "specialist": "Doctor",
+    "mild": [
+      "Stop/review the suspect medicine (only with doctor)",
+      "Oral antihistamine",
+      "Cool compresses"
+    ],
+    "moderate": [
+      "Doctor review of medicines",
+      "Topical cream as advised"
+    ],
+    "severe": [
+      "URGENT: rashes with mouth blisters, fever, red peeling skin"
+    ],
+    "when_to_see_doctor": "See doctor - do not stop prescribed medicine without advice",
+    "notes": "Not contagious. Note any new medicine vs when rash started."
+  },
+  "systemic_disease": {
+    "specialist": "Doctor / General Physician, then specialist",
+    "mild": [
+      "Full blood & sugar check-up",
+      "Moisturisers for dry skin",
+      "Balanced nutrition"
+    ],
+    "moderate": [
+      "Treatment of the underlying cause",
+      "Doctor-monitored vitamin/mineral replacement"
+    ],
+    "severe": [
+      "Specialist organ care",
+      "Hospital evaluation if systemic symptoms"
+    ],
+    "when_to_see_doctor": "See doctor for a general health check-up - skin changes can reflect internal conditions",
+    "notes": "Not contagious. The skin finding is a clue - finding and treating the cause is the cure."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "skin_conditions": [
+    {
+      "question": "What is acne and how can I treat it?",
+      "answer": "Acne is a skin condition caused by clogged hair follicles with oil and dead skin cells. It commonly appears on the face, back, and chest. Treatment: cleanse twice daily, use benzoyl peroxide or salicylic acid, use non-comedogenic products, avoid touching/picking pimples. For persistent acne, see a dermatologist who may prescribe retinoids or antibiotics.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What causes eczema and how do I treat it?",
+      "answer": "Eczema (atopic dermatitis) is an inflammatory skin condition causing dry, itchy, red patches. Triggers include allergens, stress, weather, and irritants. Treatment: daily moisturizing, avoid triggers, topical corticosteroids for flare-ups, antihistamines for itching. In severe cases see a dermatologist for prescription creams or phototherapy.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What is psoriasis?",
+      "answer": "Psoriasis is a chronic autoimmune condition where skin cells build up rapidly, forming thick, silvery scales on red patches. Common on elbows, knees, and scalp. It is NOT contagious. Treatment: topical corticosteroids, calcipotriene, phototherapy (UVB), and for moderate-severe cases biologics. Manage triggers like stress, cold, smoking.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What is the difference between eczema and psoriasis?",
+      "answer": "Eczema usually appears in skin folds (elbows, knees) with dry scaly patches, often linked to allergies, and is very itchy. Psoriasis forms thick silvery plaques on extensor surfaces (outer elbows, knees) and scalp, caused by an autoimmune response. Eczema often starts in childhood; psoriasis usually appears in adults. Neither is contagious. Both need dermatologist confirmation for proper treatment.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "Is a mole dangerous?",
+      "answer": "Most moles are benign, but changes may indicate melanoma. Use the ABCDE rule: Asymmetry, irregular Border, multiple Colors, Diameter over 6mm, and Evolving/changing. See a dermatologist for annual skin checks, and immediately if a mole changes size, shape, color, bleeds, or itches. Early detection of melanoma saves lives.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What foods should I eat for healthy skin?",
+      "answer": "For healthy skin, eat antioxidant-rich foods like berries, fatty fish with omega-3 (salmon), leafy greens, nuts, and plenty of water. Foods to limit include high sugar items, highly processed foods, and excess dairy which can aggravate acne in some people. A balanced diet with fruits, vegetables, and healthy fats promotes skin health.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What causes dark spots on skin?",
+      "answer": "Dark spots (hyperpigmentation) are caused by excess melanin from sun damage, aging, acne scarring, hormonal changes, or post-inflammatory pigmentation. Treatment: daily SPF protection, topical vitamin C, niacinamide, retinoids, and chemical peels. See a dermatologist for persistent or changing spots to rule out concerning conditions.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "Is skin cancer dangerous?",
+      "answer": "Skin cancer can be dangerous if caught late. The three main types are basal cell carcinoma (most common, rarely spreads), squamous cell carcinoma (can spread if untreated), and melanoma (most serious, can be fatal). Early detection dramatically improves outcomes. Check skin monthly, use SPF 50+, avoid tanning beds. See a dermatologist immediately for suspicious growths.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "How do I prevent fungal skin infections?",
+      "answer": "Fungal infections (tinea/ringworm) thrive in warm, damp conditions. Prevention: keep skin clean and dry, especially between toes and skin folds, avoid sharing towels and clothing, wear breathable fabrics, treat pets if infected, and don't walk barefoot in public showers. If infected, use antifungal creams (terbinafine, clotrimazole) for 2-4 weeks.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What causes dandruff and scalp itching?",
+      "answer": "Dandruff is caused by excess oil and Malassezia yeast on the scalp, leading to white flakes and itching. Treatment: use anti-dandruff shampoos (zinc pyrithione, ketoconazole, salicylic acid), wash hair regularly, reduce stress. If no improvement or thick scaling appears, see a dermatologist to rule out seborrheic dermatitis or scalp psoriasis.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What is rosacea?",
+      "answer": "Rosacea is a chronic facial skin condition causing redness, visible blood vessels, and sometimes red bumps on cheeks, nose, and forehead. Triggers include heat, spicy food, alcohol, and stress. Treatment: gentle skincare, topical metronidazole or azelaic acid, sunscreen daily, and avoid triggers. See a dermatologist for persistent redness.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What is vitiligo?",
+      "answer": "Vitiligo is an autoimmune condition causing loss of skin pigment, resulting in white patches on the skin. It is NOT contagious. Treatment options include topical corticosteroids, phototherapy, and skin camouflage. There is no complete cure, but treatment can help repigment affected areas. See a dermatologist for management.",
+      "source": "AI Health Knowledge Base"
+    }
+  ],
+  "treatment_advice": [
+    {
+      "question": "How much sunscreen should I use?",
+      "answer": "Apply a generous amount - about a shot glass (equivalent to two finger lengths) for face and neck, more for full body. Use SPF 30-50, broad-spectrum (UVA+UVB), and reapply every 2 hours and after swimming/sweating. Sun protection is the single most effective anti-aging and anti-cancer skincare habit.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "When should I see a dermatologist?",
+      "answer": "See a dermatologist for: new or changing moles, growths that bleed or don't heal, persistent painful itching, widespread rashes, hair loss, signs of infection (pus, fever), or any skin condition lasting more than 2-4 weeks without improvement. Annual skin check recommended for fair skin, lots of moles, or family history of skin cancer.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "What should I do if I think I have a skin infection?",
+      "answer": "If you suspect a skin infection, look for signs: redness spreading, warmth, pus or discharge, fever, or rapidly worsening area. Keep the area clean and covered, don't scratch, and see a doctor promptly. Bacterial infections may need antibiotics; fungal infections need antifungals. Delayed treatment can make infections worse.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "How can I improve my skincare routine?",
+      "answer": "A basic routine: 1) Gentle cleanser twice daily. 2) Moisturizer to suit your skin type. 3) SPF 30+ every morning. 4) At night optionally use actives like retinol or niacinamide. 5) Exfoliate gently 1-2 times weekly. Avoid over-washing, harsh scrubs, and popping pimples. Keep it simple and consistent.",
+      "source": "AI Health Knowledge Base"
+    },
+    {
+      "question": "Is it safe to pop pimples or drain blisters?",
+      "answer": "No - never pop pimples or drain blisters yourself. Popping pimples pushes bacteria deeper, causing more inflammation and scarring. Draining blisters risks infection and slows healing. Let them heal naturally, keep area clean, use spot treatments, and see a professional for persistent or severe lesions.",
+      "source": "AI Health Knowledge Base"
+    }
+  ],
+  "disclaimers": [
+    {
+      "question": "Is this app a replacement for a doctor?",
+      "answer": "No. This app provides AI-based guidance and is NOT a substitute for professional medical advice, diagnosis, or treatment. AI systems can make errors. Always consult a qualified dermatologist or healthcare professional for proper diagnosis and treatment. In emergencies, seek immediate medical care.",
+      "source": "AI Health Knowledge Base"
+    }
+  ]
+}

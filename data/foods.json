@@ -1,0 +1,560 @@
+{
+  "actinic_keratosis": {
+    "eat": [
+      "Antioxidant-rich berries",
+      "Green leafy vegetables",
+      "Tomatoes (cooked)",
+      "Turmeric with black pepper",
+      "Fatty fish (omega-3)",
+      "Green tea",
+      "Vitamin E foods (almonds, sunflower seeds)"
+    ],
+    "avoid": [
+      "Excessive processed foods",
+      "Deep fried foods",
+      "High-sugar snacks",
+      "Charred meats"
+    ]
+  },
+  "basal_cell_carcinoma": {
+    "eat": [
+      "Cruciferous vegetables (broccoli, cauliflower)",
+      "Berries high in antioxidants",
+      "Omega-3 fatty fish",
+      "Vitamin D foods",
+      "Colorful vegetables",
+      "Green tea"
+    ],
+    "avoid": [
+      "Processed meats",
+      "Excess alcohol",
+      "High-sugar diet",
+      "Fried foods"
+    ]
+  },
+  "darier_disease": {
+    "eat": [
+      "Zinc-rich foods (pumpkin seeds, shellfish)",
+      "Vitamin A foods (carrots, sweet potatoes)",
+      "Omega-3 foods",
+      "Fresh vegetables",
+      "Whole grains"
+    ],
+    "avoid": [
+      "Excessive vitamin A supplements (check with doctor)",
+      "Spicy foods that irritate skin",
+      "High-salt foods"
+    ]
+  },
+  "dermatofibroma": {
+    "eat": [
+      "Antioxidant fruits",
+      "Leafy greens",
+      "Healthy fats",
+      "Inflammatory-reducing foods (ginger, turmeric)"
+    ],
+    "avoid": [
+      "Excessive processed food",
+      "High-sugar diet"
+    ]
+  },
+  "epidermolysis_bullosa": {
+    "eat": [
+      "High-protein foods (eggs, lean meat)",
+      "Iron-rich foods (spinach, legumes)",
+      "Calcium sources",
+      "Vitamin-rich fruits",
+      "Healthy fats for skin healing",
+      "Warm soft foods if mouth affected"
+    ],
+    "avoid": [
+      "Hard/crunchy foods if blisters in mouth",
+      "Excessively hot foods",
+      "Spicy foods"
+    ]
+  },
+  "hailey_hailey": {
+    "eat": [
+      "Zinc-rich foods",
+      "Vitamin D foods",
+      "Anti-inflammatory foods (turmeric, ginger)",
+      "Fresh vegetables",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "Sugary foods",
+      "Processed snacks",
+      "Excessive caffeine",
+      "Spicy foods triggering sweating"
+    ]
+  },
+  "herpes_simplex": {
+    "eat": [
+      "Lysine-rich foods (fish, chicken, eggs)",
+      "Vitamin C fruits",
+      "Zinc foods (pumpkin seeds)",
+      "Probiotic foods",
+      "Garlic (natural antiviral)"
+    ],
+    "avoid": [
+      "High arginine foods (chocolate, peanuts, almonds)",
+      "Excessive processed foods",
+      "High-sugar items"
+    ]
+  },
+  "impetigo": {
+    "eat": [
+      "Vitamin C foods (citrus, kiwi)",
+      "Zinc-rich foods",
+      "Protein foods for healing",
+      "Plenty of fluids",
+      "Probiotic foods"
+    ],
+    "avoid": [
+      "High-sugar foods",
+      "Processed snacks",
+      "Excessive fried foods"
+    ]
+  },
+  "larva_migrans": {
+    "eat": [
+      "Anti-inflammatory foods (turmeric, ginger)",
+      "Vitamin C foods",
+      "Protein foods",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "Excessive sugar",
+      "Processed foods"
+    ]
+  },
+  "leprosy": {
+    "eat": [
+      "High-protein foods",
+      "Vitamin B12 foods (fish, eggs)",
+      "Iron-rich foods",
+      "Calcium sources",
+      "Fresh fruits and vegetables",
+      "Balanced nutritious meals"
+    ],
+    "avoid": [
+      "Highly processed foods",
+      "Excess alcohol",
+      "Skipping meals (nutrition is critical)"
+    ]
+  },
+  "lichen_planus": {
+    "eat": [
+      "Anti-inflammatory foods (turmeric, ginger)",
+      "Omega-3 fish",
+      "Fresh vegetables",
+      "Probiotic foods",
+      "Vitamin B12 foods"
+    ],
+    "avoid": [
+      "Spicy foods",
+      "Alcohol",
+      "Acidic foods (if mouth affected)",
+      "Caffeinated drinks"
+    ]
+  },
+  "lupus": {
+    "eat": [
+      "Anti-inflammatory foods (salmon, nuts)",
+      "Calcium-rich foods",
+      "Vitamin D foods",
+      "Fresh vegetables",
+      "Whole grains",
+      "Antioxidant berries"
+    ],
+    "avoid": [
+      "Alfalfa sprouts (may trigger)",
+      "Sun-sensitizing foods (celery, parsley in excess)",
+      "Excess alcohol",
+      "High-sodium processed foods"
+    ]
+  },
+  "melanoma": {
+    "eat": [
+      "Antioxidant-rich berries (blueberries, strawberries)",
+      "Cruciferous vegetables",
+      "Green tea",
+      "Omega-3 fish",
+      "Colorful vegetables",
+      "Turmeric and ginger (anti-inflammatory)"
+    ],
+    "avoid": [
+      "Processed meats",
+      "Fried foods",
+      "Excessive alcohol",
+      "High-sugar foods"
+    ]
+  },
+  "molluscum_contagiosum": {
+    "eat": [
+      "Immune-boosting foods (citrus, garlic)",
+      "Zinc-rich foods",
+      "Vitamin C foods",
+      "Probiotic foods",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "High-sugar foods (weaken immunity)",
+      "Processed snacks"
+    ]
+  },
+  "mycosis_fungoides": {
+    "eat": [
+      "Antioxidant-rich diet (berries, leafy greens)",
+      "Omega-3 foods",
+      "Vitamin D foods",
+      "Protein foods",
+      "Whole grains"
+    ],
+    "avoid": [
+      "Excess processed food",
+      "High sugar",
+      "Excess alcohol"
+    ]
+  },
+  "neurofibromatosis": {
+    "eat": [
+      "Balanced nutritious diet",
+      "Protein-rich foods",
+      "Omega-3 fish",
+      "Fresh fruits",
+      "Vegetables",
+      "Calcium-rich foods"
+    ],
+    "avoid": [
+      "Excess processed foods",
+      "High-sugar snacks"
+    ]
+  },
+  "papilomatosis": {
+    "eat": [
+      "Antifungal foods (garlic, coconut oil)",
+      "Probiotic foods (yogurt)",
+      "Low-sugar fruits",
+      "Fresh vegetables",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "High-sugar foods",
+      "Refined carbohydrates",
+      "Excessive dairy"
+    ]
+  },
+  "pediculosis_capitis": {
+    "eat": [
+      "Immune-boosting foods",
+      "Vitamin C fruits",
+      "Zinc foods",
+      "Balanced meals",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "High-sugar foods",
+      "Excess processed snacks"
+    ]
+  },
+  "pityriasis_rosea": {
+    "eat": [
+      "Anti-inflammatory foods",
+      "Vitamin C foods",
+      "Omega-3 fish",
+      "Fresh fruits",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "Very spicy foods",
+      "Excess sugar",
+      "Hot baths/showers that irritate"
+    ]
+  },
+  "porokeratosis": {
+    "eat": [
+      "Antioxidant-rich foods",
+      "Vitamin C foods",
+      "Beta-carotene foods (carrots)",
+      "Green tea",
+      "Fresh vegetables"
+    ],
+    "avoid": [
+      "Excess sunbathing (tighten sun protection instead)",
+      "High-sugar diet"
+    ]
+  },
+  "psoriasis": {
+    "eat": [
+      "Omega-3 rich fish (salmon, mackerel)",
+      "Leafy greens",
+      "Turmeric with black pepper",
+      "Ginger",
+      "Antioxidant berries",
+      "Healthy fats (olive oil, avocado)",
+      "Probiotic foods"
+    ],
+    "avoid": [
+      "Dairy (may trigger in some)",
+      "Red meat",
+      "Excess alcohol",
+      "Gluten (for sensitive individuals)",
+      "Nightshade vegetables (for some people)",
+      "Highly processed foods"
+    ]
+  },
+  "seborrheic_keratosis": {
+    "eat": [
+      "Antioxidant-rich foods",
+      "Vitamin E foods (almonds)",
+      "Fresh vegetables",
+      "Green tea",
+      "Berries"
+    ],
+    "avoid": [
+      "Excess processed food",
+      "High-sugar diet"
+    ]
+  },
+  "squamous_cell_carcinoma": {
+    "eat": [
+      "Cruciferous vegetables",
+      "Antioxidant berries",
+      "Omega-3 fish",
+      "Vitamin A foods",
+      "Green tea",
+      "Colorful produce"
+    ],
+    "avoid": [
+      "Processed meats",
+      "Excess alcohol",
+      "Fried foods",
+      "Charred foods"
+    ]
+  },
+  "tinea_corporis": {
+    "eat": [
+      "Antifungal foods (garlic, ginger)",
+      "Probiotic foods (yogurt)",
+      "Low-sugar diet",
+      "Fresh vegetables",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "High-sugar foods (feeds fungus)",
+      "Refined carbs",
+      "Excessive dairy",
+      "Alcohol"
+    ]
+  },
+  "tinea_nigra": {
+    "eat": [
+      "Antifungal foods (garlic, coconut)",
+      "Probiotic foods",
+      "Low-sugar diet",
+      "Fresh vegetables"
+    ],
+    "avoid": [
+      "High-sugar foods",
+      "Refined carbohydrates"
+    ]
+  },
+  "tungiasis": {
+    "eat": [
+      "Anti-inflammatory foods",
+      "Vitamin C foods",
+      "Protein for healing",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "Excess sugar",
+      "Processed foods"
+    ]
+  },
+  "vascular_lesion": {
+    "eat": [
+      "Vitamin K foods (leafy greens)",
+      "Antioxidant berries",
+      "Vitamin C foods",
+      "Omega-3 fish"
+    ],
+    "avoid": [
+      "Excess alcohol",
+      "Spicy foods (may flush lesions)"
+    ]
+  },
+  "nevus": {
+    "eat": [
+      "Antioxidant-rich foods",
+      "Vitamin C fruits",
+      "Green tea",
+      "Colorful vegetables"
+    ],
+    "avoid": [
+      "Excess sunbathing",
+      "Tanning diets or supplements"
+    ]
+  },
+  "pigmented_benign_keratosis": {
+    "eat": [
+      "Antioxidant-rich foods",
+      "Vitamin C foods",
+      "Green tea",
+      "Fresh vegetables"
+    ],
+    "avoid": [
+      "Excess processed food",
+      "High sun exposure"
+    ]
+  },
+  "healthy_normal": {
+    "eat": [
+      "Balanced diet",
+      "Fruits and vegetables",
+      "Adequate water",
+      "Healthy fats",
+      "Limit processed foods"
+    ],
+    "avoid": [
+      "Excess sugar and fried foods"
+    ]
+  },
+  "acne": {
+    "eat": [
+      "Plenty of water",
+      "Fruits and vegetables",
+      "Whole grains",
+      "Omega-3 foods (fish, nuts)",
+      "Green tea"
+    ],
+    "avoid": [
+      "High-sugar foods",
+      "Excess dairy",
+      "Fried / oily food",
+      "Processed snacks"
+    ]
+  },
+  "hyperpigmentation": {
+    "eat": [
+      "Vitamin C foods (citrus, berries)",
+      "Vitamin E foods (nuts, seeds)",
+      "Water-rich foods",
+      "Colorful vegetables"
+    ],
+    "avoid": [
+      "Excess sugar",
+      "Alcohol",
+      "Highly processed food"
+    ]
+  },
+  "eczema": {
+    "eat": [
+      "Foods rich in omega-3 (fish, walnuts)",
+      "Probiotic yogurt",
+      "Colorful vegetables",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "Known allergy foods",
+      "Excess processed/sugary food",
+      "Alcohol"
+    ]
+  },
+  "urticaria": {
+    "eat": [
+      "Anti-inflammatory foods (berries, greens)",
+      "Fresh fruits",
+      "Water"
+    ],
+    "avoid": [
+      "Known trigger foods (shellfish, nuts)",
+      "Histamine-rich foods (aged cheese)",
+      "Spicy food"
+    ]
+  },
+  "contact_dermatitis": {
+    "eat": [
+      "Anti-inflammatory diet (vegetables, fish)",
+      "Vitamin C foods"
+    ],
+    "avoid": [
+      "Known allergen foods if applicable",
+      "Excess alcohol"
+    ]
+  },
+  "alopecia": {
+    "eat": [
+      "Iron-rich foods (spinach, beans)",
+      "Protein (eggs, fish)",
+      "Zinc foods (nuts, seeds)",
+      "Vitamin D (sun, eggs)"
+    ],
+    "avoid": [
+      "Very restrictive crash diets",
+      "Excess sugar"
+    ]
+  },
+  "nail_fungus": {
+    "eat": [
+      "Probiotic yogurt",
+      "Garlic, ginger",
+      "Low-sugar diet"
+    ],
+    "avoid": [
+      "High-sugar foods (feeds fungus)",
+      "Refined carbs"
+    ]
+  },
+  "scabies": {
+    "eat": [
+      "General healthy diet",
+      "Vitamin C for skin healing"
+    ],
+    "avoid": [
+      "High-sugar processed food"
+    ]
+  },
+  "vasculitis": {
+    "eat": [
+      "Mediterranean-style diet",
+      "Omega-3 fish",
+      "Fresh vegetables"
+    ],
+    "avoid": [
+      "Excess processed food",
+      "Alcohol"
+    ]
+  },
+  "bullous_disease": {
+    "eat": [
+      "High-protein foods",
+      "Soft, easy diet if mouth blisters",
+      "Vitamin C foods"
+    ],
+    "avoid": [
+      "Very spicy/hot acidic food if mouth affected"
+    ]
+  },
+  "drug_eruption": {
+    "eat": [
+      "Hydrating fluids",
+      "Light bland diet"
+    ],
+    "avoid": [
+      "Alcohol during reaction"
+    ]
+  },
+  "systemic_disease": {
+    "eat": [
+      "Balanced diet",
+      "Iron-rich foods if deficient",
+      "Plenty of water"
+    ],
+    "avoid": [
+      "Excess sugar (if diabetic risk)",
+      "Alcohol",
+      "Junk food"
+    ]
+  }
+}

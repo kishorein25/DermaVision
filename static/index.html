@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DermVISION - Skin Disease Detector</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: system-ui, -apple-system, sans-serif; background: #fafafa; color: #111; line-height: 1.5; min-height: 100vh; }
+        .container { max-width: 640px; margin: 0 auto; padding: 24px 16px; }
+        header { text-align: center; margin-bottom: 32px; }
+        header h1 { font-size: 1.75rem; font-weight: 700; color: #111; }
+        header p { color: #666; margin-top: 4px; font-size: 0.95rem; }
+        .card { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06); }
+        .section { margin-bottom: 20px; }
+        .section:last-of-type { margin-bottom: 0; }
+        label { display: block; font-size: 0.85rem; font-weight: 600; color: #333; margin-bottom: 8px; }
+        select, input[type="text"], input[type="file"] { width: 100%; padding: 12px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; background: #fff; }
+        select:focus, input:focus { outline: none; border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+        .preview { margin-top: 10px; border-radius: 8px; overflow: hidden; border: 1px solid #eee; }
+        .preview img { width: 100%; max-height: 260px; object-fit: contain; display: block; }
+        .btn { width: 100%; padding: 14px; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; background: #2563eb; color: #fff; transition: background 0.2s; }
+        .btn:hover:not(:disabled) { background: #1d4ed8; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .loading { display: none; text-align: center; padding: 20px; color: #666; }
+        .loading.show { display: block; }
+        .spinner { width: 36px; height: 36px; border: 3px solid #e5e7eb; border-top-color: #2563eb; border-radius: 50%; margin: 0 auto 12px; animation: spin 1s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .hidden { display: none !important; }
+        .result { margin-top: 20px; }
+        .report { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #eee; }
+        .report-header { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid #f0f0f0; }
+        .report-header h2 { font-size: 1.15rem; font-weight: 600; color: #111; }
+        .confidence { background: #eff6ff; color: #1d4ed8; padding: 5px 10px; border-radius: 16px; font-size: 0.8rem; font-weight: 600; }
+        .severity { padding: 5px 10px; border-radius: 16px; font-size: 0.75rem; font-weight: 600; text-transform: capitalize; }
+        .severity.critical { background: #fef2f2; color: #dc2626; }
+        .verification { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+        .badge { padding: 5px 9px; border-radius: 6px; font-size: 0.7rem; font-weight: 600; background: #f3f4f6; color: #374151; }
+        .badge-ok { background: #f0fdf4; color: #166534; }
+        .badge-warn { background: #fffbeb; color: #92400e; }
+        .section-block { margin-bottom: 16px; }
+        .section-block:last-child { margin-bottom: 0; }
+        .section-block h3 { font-size: 0.85rem; font-weight: 600; color: #111; margin-bottom: 8px; }
+        .section-block ul { margin-left: 16px; font-size: 0.875rem; color: #374151; }
+        .section-block li { margin-bottom: 4px; }
+        .section-block p { font-size: 0.875rem; color: #374151; }
+        .foods-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .foods-grid h4 { font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; }
+        .foods-grid .eat h4 { color: #166534; }
+        .foods-grid .avoid h4 { color: #dc2626; }
+        .foods-grid ul { margin-left: 14px; font-size: 0.8rem; }
+        .contagious { padding: 12px; border-radius: 8px; font-size: 0.85rem; }
+        .contagious.yes { background: #fef2f2; border: 1px solid #fecaca; }
+        .contagious.no { background: #f0fdf4; border: 1px solid #bbf7d0; }
+        .contagious h4 { font-weight: 600; margin-bottom: 6px; }
+        .contagious p { margin-bottom: 6px; }
+        .contagious ul { margin-left: 14px; font-size: 0.8rem; }
+        .doctor-card { background: #f9fafb; border-radius: 8px; padding: 12px; margin-bottom: 10px; border: 1px solid #f0f0f0; }
+        .doctor-name { font-weight: 600; font-size: 0.9rem; color: #111; margin-bottom: 4px; }
+        .doctor-info { font-size: 0.8rem; color: #6b7280; margin-bottom: 2px; }
+        .hint { font-size: 0.8rem; color: #6b7280; margin-top: 10px; }
+        .emergency { background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 12px; margin-top: 16px; font-size: 0.8rem; color: #dc2626; }
+        .disclaimer { background: #f3f4f6; border-radius: 8px; padding: 10px; margin-top: 12px; font-size: 0.7rem; color: #4b5563; }
+        .normal-report .report-header { background: #f0fdf4; border-radius: 8px; padding: 14px; margin-bottom: 14px; border: none; }
+        .normal-report .report-header h2 { color: #166534; }
+        .normal-report .confidence { background: #dcfce7; color: #166534; }
+        .tabs { display: flex; gap: 6px; margin-bottom: 20px; background: #fff; padding: 4px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); border: 1px solid #eee; }
+        .tab { flex: 1; padding: 10px; border: none; background: transparent; border-radius: 6px; font-size: 0.9rem; font-weight: 600; color: #6b7280; cursor: pointer; }
+        .tab.active { background: #2563eb; color: #fff; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .chat-card { padding: 0; overflow: hidden; }
+        .messages { height: 360px; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+        .msg { display: flex; max-width: 85%; }
+        .msg.bot { align-self: flex-start; }
+        .msg.user { align-self: flex-end; }
+        .bubble { padding: 10px 14px; border-radius: 16px; font-size: 0.875rem; line-height: 1.5; }
+        .msg.bot .bubble { background: #f3f4f6; border-bottom-left-radius: 4px; }
+        .msg.user .bubble { background: #2563eb; color: #fff; border-bottom-right-radius: 4px; }
+        .bubble.error { background: #fef2f2; color: #dc2626; }
+        .chat-input { display: flex; gap: 8px; padding: 14px 16px; border-top: 1px solid #f0f0f0; }
+        .chat-input input { flex: 1; padding: 10px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 0.9rem; }
+        .chat-input input:focus { outline: none; border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+        .chat-input button { padding: 10px 18px; background: #2563eb; color: #fff; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; }
+        .chat-disclaimer { margin-top: 6px; font-size: 0.65rem; color: #b45309; }
+        .sources { margin-top: 6px; font-size: 0.65rem; color: #6b7280; }
+        @media (max-width: 560px) {
+            .container { padding: 16px 12px; }
+            .card { padding: 16px; }
+            .foods-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DermVISION</h1>
+            <p>AI-powered skin analysis</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab active" data-tab="diagnose">Diagnose</button>
+            <button class="tab" data-tab="chat">Chat</button>
+        </nav>
+
+        <main>
+            <section id="diagnose" class="tab-content active">
+                <div class="card">
+                    <div class="section">
+                        <label>Body Region</label>
+                        <select id="region">
+                            <option value="face">Face</option>
+                            <option value="hand">Hand</option>
+                            <option value="leg">Leg</option>
+                            <option value="foot">Foot</option>
+                            <option value="scalp">Scalp</option>
+                            <option value="back">Back</option>
+                            <option value="whole_body">Whole Body</option>
+                        </select>
+                    </div>
+
+                    <div class="section">
+                        <label>Location (optional - for nearby doctors)</label>
+                        <input type="text" id="location" placeholder="e.g., Chennai, India">
+                    </div>
+
+                    <div class="section">
+                        <label>Skin Image</label>
+                        <input type="file" id="image" accept="image/*" required>
+                        <div id="preview" class="preview hidden">
+                            <img id="previewImg" alt="Preview">
+                        </div>
+                    </div>
+
+                    <button id="diagnoseBtn" class="btn">Analyze</button>
+                    <div id="loading" class="loading">
+                        <div class="spinner"></div>
+                        <p>Analyzing with AI models...</p>
+                    </div>
+                </div>
+
+                <div id="result" class="result hidden"></div>
+            </section>
+
+            <section id="chat" class="tab-content">
+                <div class="card chat-card">
+                    <div id="messages" class="messages">
+                        <div class="msg bot">
+                            <div class="bubble">
+                                Hello! Ask me about skin conditions, treatments, skincare, or foods for healthy skin.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="question" placeholder="Type your question..." onkeypress="if(event.key==='Enter')sendQuestion()">
+                        <button onclick="sendQuestion()">Send</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const $ = (sel) => document.querySelector(sel);
+        const $$ = (sel) => document.querySelectorAll(sel);
+
+        $$('.tab').forEach(t => t.addEventListener('click', () => {
+            $$('.tab').forEach(x => x.classList.remove('active'));
+            $$('.tab-content').forEach(x => x.classList.remove('active'));
+            t.classList.add('active');
+            $('#' + t.dataset.tab).classList.add('active');
+        }));
+
+        const imageInput = $('#image');
+        const preview = $('#preview');
+        const previewImg = $('#previewImg');
+        const diagnoseBtn = $('#diagnoseBtn');
+        const loading = $('#loading');
+        const result = $('#result');
+
+        imageInput.addEventListener('change', () => {
+            const file = imageInput.files[0];
+            if (file) {
+                previewImg.src = URL.createObjectURL(file);
+                preview.classList.remove('hidden');
+            } else {
+                preview.classList.add('hidden');
+            }
+        });
+
+        async function diagnose() {
+            const file = imageInput.files[0];
+            const region = $('#region').value;
+            const location = $('#location').value;
+
+            if (!file) { alert('Please select an image'); return; }
+
+            diagnoseBtn.disabled = true;
+            loading.classList.add('show');
+            result.classList.add('hidden');
+
+            const formData = new FormData();
+            formData.append('image', file);
+            formData.append('region', region);
+            formData.append('location', location);
+
+            try {
+                const res = await fetch('/diagnose', { method: 'POST', body: formData });
+                const data = await res.json();
+                renderResult(data);
+            } catch (err) {
+                result.innerHTML = `<div class="report"><p style="color:#dc2626">Error: ${err.message}</p></div>`;
+                result.classList.remove('hidden');
+            } finally {
+                diagnoseBtn.disabled = false;
+                loading.classList.remove('show');
+            }
+        }
+
+        diagnoseBtn.addEventListener('click', diagnose);
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function renderResult(data) {
+            if (!data.success) {
+                if (data.region_mismatch) {
+                    result.innerHTML = `
+                        <div class="report">
+                            <div class="report-header"><h2>Region Mismatch</h2></div>
+                            <p>${escapeHtml(data.message)}</p>
+                        </div>`;
+                } else {
+                    result.innerHTML = `<div class="report"><p style="color:#dc2626">Error: ${escapeHtml(data.error || data.message)}</p></div>`;
+                }
+                result.classList.remove('hidden');
+                return;
+            }
+
+            if (data.normal) {
+                result.innerHTML = `
+                    <div class="report normal-report">
+                        <div class="report-header"><h2>${escapeHtml(data.message)}</h2><div class="confidence">Confidence: ${(data.confidence * 100).toFixed(1)}%</div></div>
+                        <div class="verification">
+                            <span class="badge">Primary: ${escapeHtml(data.primary)} (${(data.primary_conf * 100).toFixed(1)}%)</span>
+                            <span class="badge">Secondary: ${escapeHtml(data.secondary)} (${(data.secondary_conf * 100).toFixed(1)}%)</span>
+                        </div>
+                        <p style="margin-top:12px;">Your skin appears clear and healthy. Keep up your skincare routine with daily sunscreen!</p>
+                        <div class="disclaimer">${escapeHtml(data.disclaimer)}</div>
+                    </div>`;
+                result.classList.remove('hidden');
+                result.scrollIntoView({ behavior: 'smooth' });
+                return;
+            }
+
+            const foodsHtml = data.foods && data.foods.eat ? `
+                <div class="section-block foods-grid">
+                    <h3>Foods</h3>
+                    <div class="eat"><h4>Eat</h4><ul>${data.foods.eat.map(f => `<li>${escapeHtml(f)}</li>`).join('')}</ul></div>
+                    <div class="avoid"><h4>Avoid</h4><ul>${data.foods.avoid.map(f => `<li>${escapeHtml(f)}</li>`).join('')}</ul></div>
+                </div>` : '';
+
+            const treatmentHtml = data.treatments && data.treatments.mild ? `
+                <div class="section-block">
+                    <h3>Treatments</h3>
+                    ${data.treatments.mild.length ? `<h4 style="font-size:.8rem;font-weight:600;margin:8px 0 4px">Mild</h4><ul>${data.treatments.mild.map(m => `<li>${escapeHtml(m)}</li>`).join('')}</ul>` : ''}
+                    ${data.treatments.moderate.length ? `<h4 style="font-size:.8rem;font-weight:600;margin:8px 0 4px">Moderate</h4><ul>${data.treatments.moderate.map(m => `<li>${escapeHtml(m)}</li>`).join('')}</ul>` : ''}
+                    ${data.treatments.severe.length ? `<h4 style="font-size:.8rem;font-weight:600;margin:8px 0 4px">Severe</h4><ul>${data.treatments.severe.map(m => `<li>${escapeHtml(m)}</li>`).join('')}</ul>` : ''}
+                    <p style="margin-top:8px;font-size:.8rem"><strong>Specialist:</strong> ${escapeHtml(data.treatments.specialist || 'Dermatologist')}</p>
+                    <p style="font-size:.8rem"><strong>See doctor:</strong> ${escapeHtml(data.treatments.when_to_see_doctor || '')}</p>
+                </div>` : '';
+
+            const occurrenceHtml = data.occurrence && data.occurrence.prevalence ? `
+                <div class="section-block">
+                    <h3>Occurrence</h3>
+                    <ul>
+                        <li><strong>Prevalence:</strong> ${escapeHtml(data.occurrence.prevalence)}</li>
+                        <li><strong>Global Rate:</strong> ${escapeHtml(data.occurrence.global_rate)}</li>
+                        <li><strong>Peak Age:</strong> ${escapeHtml(data.occurrence.peak_age)}</li>
+                        <li><strong>Gender:</strong> ${escapeHtml(data.occurrence.gender)}</li>
+                    </ul>
+                </div>` : '';
+
+            let contagiousHtml = '';
+            if (data.contagious) {
+                const isContagious = data.contagious.contagious;
+                contagiousHtml = `
+                    <div class="section-block">
+                        <div class="contagious ${isContagious ? 'yes' : 'no'}">
+                            <h4>${isContagious ? 'Contagious' : 'Not Contagious'}</h4>
+                            <p><strong>Transmission:</strong> ${escapeHtml(data.contagious.transmission)}</p>
+                            ${data.contagious.prevention.length ? `<p><strong>Prevention:</strong></p><ul>${data.contagious.prevention.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>` : ''}
+                        </div>
+                    </div>`;
+            }
+
+            let doctorsHtml = '';
+            if (data.doctors && data.doctors.length) {
+                doctorsHtml = `
+                    <div class="section-block">
+                        <h3>Nearby Doctors</h3>
+                        ${data.doctors.map(d => `
+                            <div class="doctor-card">
+                                <div class="doctor-name">${escapeHtml(d.name)}${d.rating ? ` ⭐ ${d.rating} (${d.reviews || 0})` : ''}</div>
+                                <div class="doctor-info">${d.distance_km} km away</div>
+                                <div class="doctor-info">${escapeHtml(d.phone)}</div>
+                                ${d.opening_hours && d.opening_hours !== 'Call to confirm' ? `<div class="doctor-info">${escapeHtml(d.opening_hours)}</div>` : ''}
+                                ${d.specialty ? `<div class="doctor-info">${escapeHtml(d.specialty)}</div>` : ''}
+                            </div>`).join('')}
+                        <p class="hint">Search Google Maps for "dermatologist near me" for more options.</p>
+                    </div>`;
+            } else {
+                doctorsHtml = '<p class="hint">Enter your city above and run diagnosis again to find nearby doctors.</p>';
+            }
+
+            const symptomsHtml = data.symptoms && data.symptoms.length
+                ? `<div class="section-block"><h3>Common Symptoms</h3><ul>${data.symptoms.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul></div>`
+                : '';
+
+            const mobilenetHtml = data.mobilenet ? `
+                <div class="verification">
+                    <span class="badge badge-ok">23-class model: ${escapeHtml(data.mobilenet.display)} (${(data.mobilenet.confidence * 100).toFixed(1)}%)</span>
+                    ${data.model_basis === 'new_model' ? `<span class="badge badge-ok">Final answer from 23-class model</span>` : ''}
+                </div>` : '';
+
+            result.innerHTML = `
+                <div class="report">
+                    <div class="report-header">
+                        <h2>Diagnosis: ${escapeHtml(data.disease_name)}</h2>
+                        <div class="confidence">Confidence: ${(data.confidence * 100).toFixed(1)}%</div>
+                        <div class="severity ${data.severity && data.severity.toLowerCase().includes('critical') ? 'critical' : ''}">Severity: ${escapeHtml(data.severity || 'Unknown')}</div>
+                    </div>
+
+                    <div class="verification">
+                        <span class="badge ${data.agreed ? 'badge-ok' : 'badge-warn'}">${data.agreed ? 'Both models agree' : 'Models differ'}</span>
+                        <span class="badge">Primary: ${escapeHtml(data.primary)} (${(data.primary_conf * 100).toFixed(1)}%)</span>
+                        <span class="badge">Secondary: ${escapeHtml(data.secondary)} (${(data.secondary_conf * 100).toFixed(1)}%)</span>
+                    </div>
+                    ${mobilenetHtml}
+
+                    <div class="section-block">
+                        <h3>About ${escapeHtml(data.disease_name)}</h3>
+                        <p>${escapeHtml(data.description)}</p>
+                    </div>
+
+                    ${symptomsHtml}
+                    ${occurrenceHtml}
+                    ${contagiousHtml}
+                    ${treatmentHtml}
+                    ${foodsHtml}
+                    ${doctorsHtml}
+
+                    <div class="emergency">${escapeHtml(data.emergency_warning)}</div>
+                    <div class="disclaimer">${escapeHtml(data.disclaimer)}</div>
+                </div>`;
+
+            result.classList.remove('hidden');
+            result.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Chat
+        const messages = $('#messages');
+        const questionInput = $('#question');
+
+        async function sendQuestion() {
+            const question = questionInput.value.trim();
+            if (!question) return;
+
+            messages.insertAdjacentHTML('beforeend', `<div class="msg user"><div class="bubble">${escapeHtml(question)}</div></div>`);
+            questionInput.value = '';
+            messages.scrollTop = messages.scrollHeight;
+
+            const typingId = 'typing-' + Date.now();
+            messages.insertAdjacentHTML('beforeend', `<div class="msg bot" id="${typingId}"><div class="bubble">Thinking...</div></div>`);
+            messages.scrollTop = messages.scrollHeight;
+
+            try {
+                const res = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question })
+                });
+                const data = await res.json();
+
+                document.getElementById(typingId).remove();
+
+                if (data.success) {
+                    let sources = '';
+                    if (data.sources && data.sources.length) {
+                        sources = `<div class="sources">Source: ${data.sources.join(', ')}</div>`;
+                    }
+                    messages.insertAdjacentHTML('beforeend', `
+                        <div class="msg bot">
+                            <div class="bubble">${escapeHtml(data.answer)}${sources}<div class="chat-disclaimer">AI guidance only - consult a doctor for medical advice.</div></div>
+                        </div>`);
+                } else {
+                    messages.insertAdjacentHTML('beforeend', `<div class="msg bot"><div class="bubble error">${escapeHtml(data.error || 'Something went wrong')}</div></div>`);
+                }
+            } catch (err) {
+                document.getElementById(typingId).remove();
+                messages.insertAdjacentHTML('beforeend', `<div class="msg bot"><div class="bubble error">Connection error: ${escapeHtml(err.message)}</div></div>`);
+            }
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        window.sendQuestion = sendQuestion;
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+flask==3.0.0
+transformers==4.36.0
+torch==2.1.0
+torchvision==0.16.0
+mediapipe==0.10.8
+pillow==10.1.0
+opencv-contrib-python==4.8.1.78
+numpy==1.26.2
+requests==2.31.0
+geocoder==1.38.1
+onnxruntime==1.16.3

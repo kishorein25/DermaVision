@@ -1,0 +1,433 @@
+{
+  "actinic_keratosis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - caused by sun damage",
+    "prevention": [
+      "Use SPF 30+ daily",
+      "Avoid midday sun",
+      "Wear protective clothing",
+      "Annual skin checks"
+    ]
+  },
+  "basal_cell_carcinoma": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - caused by UV damage",
+    "prevention": [
+      "Sun protection always",
+      "Avoid tanning beds",
+      "Wear hats and protective clothing",
+      "Early detection saves lives"
+    ]
+  },
+  "darier_disease": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - genetic condition",
+    "prevention": [
+      "Avoid heat and sweating",
+      "Sun protection",
+      "Gentle cleansing",
+      "Manage triggers"
+    ]
+  },
+  "dermatofibroma": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - benign growth",
+    "prevention": [
+      "Protect from repeated trauma",
+      "Monitor for changes"
+    ]
+  },
+  "epidermolysis_bullosa": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - genetic condition",
+    "prevention": [
+      "Gentle skin handling",
+      "Soft clothing",
+      "Preventing friction",
+      "Specialized wound care"
+    ]
+  },
+  "hailey_hailey": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - genetic condition",
+    "prevention": [
+      "Keep skin folds dry",
+      "Avoid friction",
+      "Avoid heat and sweating",
+      "Good hygiene"
+    ]
+  },
+  "herpes_simplex": {
+    "contagious": true,
+    "spreadable": true,
+    "transmission": "Direct skin contact, kissing, sharing utensils during outbreak",
+    "prevention": [
+      "Avoid kissing during outbreaks",
+      "Don't share items",
+      "Strong immunity",
+      "Treat outbreaks early"
+    ]
+  },
+  "impetigo": {
+    "contagious": true,
+    "spreadable": true,
+    "transmission": "Direct skin contact, towels, clothing, furniture",
+    "prevention": [
+      "Wash hands frequently",
+      "Keep sores covered",
+      "Don't share towels",
+      "Treat all household contacts"
+    ]
+  },
+  "larva_migrans": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not person-to-person - acquired from soil",
+    "prevention": [
+      "Wear shoes outdoors",
+      "Avoid walking barefoot in endemic areas",
+      "Beach mats on sand"
+    ]
+  },
+  "leprosy": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Low communicability - only prolonged close contact; treated patients not contagious",
+    "prevention": [
+      "Early diagnosis and treatment",
+      "Contact tracing in endemic areas"
+    ]
+  },
+  "lichen_planus": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - immune-mediated",
+    "prevention": [
+      "Avoid triggers",
+      "Manage stress",
+      "Good oral hygiene (if mouth affected)"
+    ]
+  },
+  "lupus": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - autoimmune disease",
+    "prevention": [
+      "Sun protection critical",
+      "Avoid triggers",
+      "Regular medical care",
+      "Healthy lifestyle"
+    ]
+  },
+  "melanoma": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - from UV damage",
+    "prevention": [
+      "SPF 50+ daily",
+      "Never use tanning beds",
+      "Self-exam monthly",
+      "Annual skin checks",
+      "Protect children's skin"
+    ]
+  },
+  "molluscum_contagiosum": {
+    "contagious": true,
+    "spreadable": true,
+    "transmission": "Direct contact, shared towels, swimming pools, same body area spread",
+    "prevention": [
+      "Don't share towels",
+      "Cover bumps with clothing",
+      "Don't scratch",
+      "Avoid contact sports during outbreaks"
+    ]
+  },
+  "mycosis_fungoides": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - immune system disorder",
+    "prevention": [
+      "Regular dermatology follow-up",
+      "Protect skin",
+      "Monitor lesions"
+    ]
+  },
+  "neurofibromatosis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - genetic condition",
+    "prevention": [
+      "Genetic counseling",
+      "Regular monitoring",
+      "Specialist care"
+    ]
+  },
+  "papilomatosis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - yeast + genetic tendency",
+    "prevention": [
+      "Good hygiene",
+      "Keep skin dry",
+      "Manage sweating"
+    ]
+  },
+  "pediculosis_capitis": {
+    "contagious": true,
+    "spreadable": true,
+    "transmission": "Direct head-to-head contact, shared combs, hats, pillows",
+    "prevention": [
+      "Avoid head contact",
+      "Don't share combs/hats",
+      "Check children regularly",
+      "Treat all household contacts"
+    ]
+  },
+  "pityriasis_rosea": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious",
+    "prevention": [
+      "No specific prevention",
+      "Manage itching"
+    ]
+  },
+  "porokeratosis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious",
+    "prevention": [
+      "Sun protection",
+      "Annual skin checks"
+    ]
+  },
+  "psoriasis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - autoimmune condition",
+    "prevention": [
+      "Manage stress",
+      "Avoid triggers",
+      "Moisturize regularly",
+      "Limit alcohol and smoking",
+      "Maintain healthy weight"
+    ]
+  },
+  "seborrheic_keratosis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - aging related",
+    "prevention": [
+      "None specific",
+      "Monitor for changes"
+    ]
+  },
+  "squamous_cell_carcinoma": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - UV induced",
+    "prevention": [
+      "Sun protection",
+      "Regular skin checks",
+      "Protect scars and wounds"
+    ]
+  },
+  "tinea_corporis": {
+    "contagious": true,
+    "spreadable": true,
+    "transmission": "Direct contact, pets, shared towels, clothing",
+    "prevention": [
+      "Wash bedding and clothing",
+      "If pets infected treat them",
+      "Keep skin dry",
+      "Don't share towels"
+    ]
+  },
+  "tinea_nigra": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - from soil fungus",
+    "prevention": [
+      "Wear gloves when gardening",
+      "Keep skin dry"
+    ]
+  },
+  "tungiasis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not person-to-person - from sand fleas",
+    "prevention": [
+      "Wear closed shoes in endemic areas",
+      "Avoid sitting directly on sand",
+      "Check feet after beach trips"
+    ]
+  },
+  "vascular_lesion": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - vascular structure",
+    "prevention": [
+      "None specific",
+      "Monitor changes"
+    ]
+  },
+  "nevus": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - pigment cells",
+    "prevention": [
+      "Sun protection",
+      "Monthly mole self-exam",
+      "Annual skin check"
+    ]
+  },
+  "pigmented_benign_keratosis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Not contagious - benign",
+    "prevention": [
+      "Sun protection",
+      "Monitor for changes"
+    ]
+  },
+  "healthy_normal": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "No issues - healthy skin",
+    "prevention": [
+      "Sun protection",
+      "Good skincare routine",
+      "Healthy diet",
+      "Adequate hydration"
+    ]
+  },
+  "acne": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Acne is not contagious or infectious",
+    "prevention": [
+      "Wash face twice daily gently",
+      "Avoid picking / popping pimples",
+      "Use non-comedogenic products",
+      "Manage stress and diet"
+    ]
+  },
+  "hyperpigmentation": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Hyperpigmentation is not contagious or infectious",
+    "prevention": [
+      "Daily sunscreen SPF 30+",
+      "Protective clothing / hat",
+      "Avoid picking skin after acne or insect bites",
+      "Treat inflammation early"
+    ]
+  },
+  "eczema": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Eczema is not contagious or infectious",
+    "prevention": [
+      "Daily moisturising",
+      "Gentle soaps",
+      "Identify triggers",
+      "Cool clothing"
+    ]
+  },
+  "urticaria": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Hives are a reaction, not contagious",
+    "prevention": [
+      "Avoid known triggers",
+      "Cool compresses",
+      "Antihistamines when needed"
+    ]
+  },
+  "contact_dermatitis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Contact dermatitis is not contagious",
+    "prevention": [
+      "Avoid the irritant/allergen",
+      "Wear gloves for chemicals",
+      "Barrier creams"
+    ]
+  },
+  "alopecia": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Hair loss is not contagious",
+    "prevention": [
+      "Gentle styling",
+      "Balanced diet",
+      "Stress management",
+      "Early doctor visit"
+    ]
+  },
+  "nail_fungus": {
+    "contagious": true,
+    "spreadable": true,
+    "transmission": "Fungal - via shared towels, clippers, wet floors, shoes",
+    "prevention": [
+      "Keep nails dry",
+      "Don't share clippers/towels",
+      "Wear slippers in public showers",
+      "Disinfect tools"
+    ]
+  },
+  "scabies": {
+    "contagious": true,
+    "spreadable": true,
+    "transmission": "Direct skin contact and shared bedding/clothing",
+    "prevention": [
+      "Treat all contacts together",
+      "Hot-wash bedding/clothes",
+      "Avoid skin-to-skin contact till treated"
+    ]
+  },
+  "vasculitis": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Vasculitis is inflammation, not contagious",
+    "prevention": [
+      "Prompt medical care",
+      "Manage underlying conditions"
+    ]
+  },
+  "bullous_disease": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Blistering diseases are not contagious",
+    "prevention": [
+      "Protect skin from friction",
+      "No self-popping of blisters",
+      "Early specialist care"
+    ]
+  },
+  "drug_eruption": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Drug rashes are a reaction, not contagious",
+    "prevention": [
+      "Track medicines vs rash timing",
+      "Inform doctor of prior reactions"
+    ]
+  },
+  "systemic_disease": {
+    "contagious": false,
+    "spreadable": false,
+    "transmission": "Systemic skin changes are not contagious",
+    "prevention": [
+      "Regular health check-ups",
+      "Manage chronic conditions",
+      "Balanced diet"
+    ]
+  }
+}

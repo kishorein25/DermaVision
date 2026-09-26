@@ -1,0 +1,951 @@
+{
+  "actinic_keratosis": {
+    "name": "Actinic Keratosis",
+    "description": "Rough, scaly patches on skin caused by years of sun exposure. Considered a precancerous condition.",
+    "common_regions": [
+      "face",
+      "hand",
+      "scalp",
+      "back"
+    ],
+    "severity": "Mild to moderate risk",
+    "symptoms": [
+      "Rough dry patches",
+      "Flat or raised scaly areas",
+      "Itching or burning sensation"
+    ],
+    "causes": [
+      "Sun exposure",
+      "UV damage",
+      "Light skin",
+      "Age over 40"
+    ]
+  },
+  "basal_cell_carcinoma": {
+    "name": "Basal Cell Carcinoma",
+    "description": "Slow-growing skin cancer that usually appears on sun-exposed areas. Rarely spreads but requires treatment.",
+    "common_regions": [
+      "face",
+      "scalp",
+      "back",
+      "hand",
+      "leg"
+    ],
+    "severity": "Moderate risk",
+    "symptoms": [
+      "Pearl-like bumps",
+      "Open sores",
+      "Red patches",
+      "Shiny nodules"
+    ],
+    "causes": [
+      "Sun exposure",
+      "UV radiation",
+      "Fair skin",
+      "Radiation therapy history"
+    ]
+  },
+  "darier_disease": {
+    "name": "Darier's Disease",
+    "description": "A genetic skin disorder causing rough, warty bumps that can be brown, yellow, or white.",
+    "common_regions": [
+      "whole_body",
+      "face",
+      "back",
+      "leg",
+      "hand"
+    ],
+    "severity": "Chronic condition",
+    "symptoms": [
+      "Rough warty bumps",
+      "Oily crusted skin",
+      "Unpleasant odor",
+      "Itching"
+    ],
+    "causes": [
+      "Genetic mutation (ATP2A2)",
+      "Heat",
+      "Sunlight",
+      "Friction"
+    ]
+  },
+  "dermatofibroma": {
+    "name": "Dermatofibroma",
+    "description": "Common benign skin growth that usually appears on legs, firm to touch and slightly raised.",
+    "common_regions": [
+      "leg",
+      "back"
+    ],
+    "severity": "Benign",
+    "symptoms": [
+      "Firm bump",
+      "Brown or pink color",
+      "Dents when pinched",
+      "Sometimes itchy"
+    ],
+    "causes": [
+      "Insect bites",
+      "Minor trauma",
+      "Unknown"
+    ]
+  },
+  "epidermolysis_bullosa": {
+    "name": "Epidermolysis Bullosa",
+    "description": "A group of rare genetic conditions causing fragile skin that blisters easily.",
+    "common_regions": [
+      "whole_body",
+      "hand",
+      "foot",
+      "leg"
+    ],
+    "severity": "Severe (genetic)",
+    "symptoms": [
+      "Blisters",
+      "Fragile skin",
+      "Skin loss",
+      "Nail changes"
+    ],
+    "causes": [
+      "Genetic mutation",
+      "Inherited condition"
+    ]
+  },
+  "hailey_hailey": {
+    "name": "Hailey-Hailey Disease",
+    "description": "A hereditary blistering disorder affecting folds of skin like armpits, groin, and neck.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "face"
+    ],
+    "severity": "Chronic condition",
+    "symptoms": [
+      "Blisters",
+      "Crusting",
+      "Skin folds affected",
+      "Itching and burning"
+    ],
+    "causes": [
+      "Genetic mutation (ATP2C1)",
+      "Friction",
+      "Sweating",
+      "Infection"
+    ]
+  },
+  "herpes_simplex": {
+    "name": "Herpes Simplex",
+    "description": "Viral infection causing cold sores or fever blisters, typically around mouth or genitals.",
+    "common_regions": [
+      "face",
+      "hand"
+    ],
+    "severity": "Contagious viral infection",
+    "symptoms": [
+      "Small fluid blisters",
+      "Burning before outbreak",
+      "Crusting sores",
+      "Lymph node swelling"
+    ],
+    "causes": [
+      "HSV-1 virus",
+      "HSV-2 virus",
+      "Direct contact",
+      "Stress lowering immunity"
+    ]
+  },
+  "impetigo": {
+    "name": "Impetigo",
+    "description": "Highly contagious bacterial skin infection common in children, causing sores and honey-colored crusts.",
+    "common_regions": [
+      "face",
+      "hand",
+      "leg",
+      "whole_body"
+    ],
+    "severity": "Contagious - treatable",
+    "symptoms": [
+      "Red sores",
+      "Honey-colored crust",
+      "Itching",
+      "Blisters"
+    ],
+    "causes": [
+      "Staph bacteria",
+      "Strep bacteria",
+      "Direct contact",
+      "Broken skin"
+    ]
+  },
+  "larva_migrans": {
+    "name": "Larva Migrans",
+    "description": "Skin disease caused by hookworm larvae burrowing through the skin, creating itchy track lines.",
+    "common_regions": [
+      "foot",
+      "leg"
+    ],
+    "severity": "Treatable parasitic infection",
+    "symptoms": [
+      "Curved track lines",
+      "Severe itching",
+      "Red raised lines",
+      "Movement under skin"
+    ],
+    "causes": [
+      "Hookworm larvae",
+      "Walking barefoot",
+      "Contact with contaminated soil"
+    ]
+  },
+  "leprosy": {
+    "name": "Leprosy (Hansen's Disease)",
+    "description": "Chronic infectious disease affecting skin and nerves. Highly treatable but requires extended medical care.",
+    "common_regions": [
+      "face",
+      "hand",
+      "leg",
+      "whole_body"
+    ],
+    "severity": "Serious - treatable",
+    "symptoms": [
+      "Numb skin patches",
+      "Light-colored patches",
+      "Thickened nerves",
+      "Skin lesions"
+    ],
+    "causes": [
+      "Mycobacterium leprae",
+      "Prolonged close contact",
+      "Droplet infection"
+    ]
+  },
+  "lichen_planus": {
+    "name": "Lichen Planus",
+    "description": "Inflammatory skin condition causing itchy, purple-colored bumps on skin and inside the mouth.",
+    "common_regions": [
+      "hand",
+      "leg",
+      "whole_body",
+      "back"
+    ],
+    "severity": "Chronic inflammatory",
+    "symptoms": [
+      "Purple flat-topped bumps",
+      "Severe itching",
+      "White lacy patches in mouth",
+      "Ridged nails"
+    ],
+    "causes": [
+      "Unknown",
+      "Autoimmune response",
+      "Hepatitis C",
+      "Certain medications"
+    ]
+  },
+  "lupus": {
+    "name": "Lupus Erythematosus",
+    "description": "Autoimmune disease where the immune system attacks healthy tissue, causing rashes and skin damage.",
+    "common_regions": [
+      "face",
+      "scalp",
+      "hand",
+      "whole_body"
+    ],
+    "severity": "Serious autoimmune disease",
+    "symptoms": [
+      "Butterfly-shaped facial rash",
+      "Scaly patches",
+      "Hair loss",
+      "Sun sensitivity"
+    ],
+    "causes": [
+      "Autoimmune dysfunction",
+      "Genetic predisposition",
+      "Sunlight triggers",
+      "Medications"
+    ]
+  },
+  "melanoma": {
+    "name": "Melanoma (Skin Cancer)",
+    "description": "The most serious type of skin cancer that develops in pigment-producing cells. Early detection is critical.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "leg",
+      "face",
+      "foot"
+    ],
+    "severity": "CRITICAL - Medical emergency",
+    "symptoms": [
+      "Asymmetric moles",
+      "Irregular borders",
+      "Multiple colors",
+      "Diameter > 6mm",
+      "Changing mole"
+    ],
+    "causes": [
+      "UV exposure",
+      "Sunburns",
+      "Tanning beds",
+      "Family history",
+      "Many moles"
+    ]
+  },
+  "molluscum_contagiosum": {
+    "name": "Molluscum Contagiosum",
+    "description": "Viral skin infection causing small, painless, pearly bumps that can spread through contact.",
+    "common_regions": [
+      "face",
+      "whole_body",
+      "back",
+      "hand"
+    ],
+    "severity": "Contagious - benign",
+    "symptoms": [
+      "Small pearly bumps",
+      "Dimpled center",
+      "No pain usually",
+      "Can spread"
+    ],
+    "causes": [
+      "Molluscum virus",
+      "Direct contact",
+      "Shared towels",
+      "Contact sports"
+    ]
+  },
+  "mycosis_fungoides": {
+    "name": "Mycosis Fungoides",
+    "description": "A type of cutaneous T-cell lymphoma (skin cancer) that starts as a rash and progresses slowly.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "leg"
+    ],
+    "severity": "Serious - requires dermatology",
+    "symptoms": [
+      "Itchy patches",
+      "Plaques",
+      "Tumors",
+      "Skin redness"
+    ],
+    "causes": [
+      "Abnormal T-cells",
+      "Unknown triggers",
+      "Immune system dysfunction"
+    ]
+  },
+  "neurofibromatosis": {
+    "name": "Neurofibromatosis",
+    "description": "Genetic condition causing tumors to grow on nerves and skin, with café-au-lait spots.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "leg"
+    ],
+    "severity": "Genetic - chronic",
+    "symptoms": [
+      "Café-au-lait spots",
+      "Soft bumps on skin",
+      "Neurofibromas",
+      "Freckling in folds"
+    ],
+    "causes": [
+      "Genetic mutation (NF1)",
+      "Inherited",
+      "New mutations"
+    ]
+  },
+  "papilomatosis": {
+    "name": "Papillomatosis (Confluent and Reticulate)",
+    "description": "Skin condition causing brown, scaly patches that join together, often on the chest and neck.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "face"
+    ],
+    "severity": "Benign cosmetic condition",
+    "symptoms": [
+      "Brown patches",
+      "Scaly texture",
+      "Fused warty appearance",
+      "Itching sometimes"
+    ],
+    "causes": [
+      "Malassezia yeast",
+      "Genetic tendency",
+      "Hormonal factors"
+    ]
+  },
+  "pediculosis_capitis": {
+    "name": "Pediculosis Capitis (Head Lice)",
+    "description": "Infestation of head lice causing intense scalp itching and visible nits in hair.",
+    "common_regions": [
+      "scalp"
+    ],
+    "severity": "Contagious - easily treatable",
+    "symptoms": [
+      "Scalp itching",
+      "Nits in hair",
+      "Live lice visible",
+      "Scalp irritation"
+    ],
+    "causes": [
+      "Head lice insects",
+      "Direct head contact",
+      "Shared combs",
+      "Shared hats"
+    ]
+  },
+  "pityriasis_rosea": {
+    "name": "Pityriasis Rosea",
+    "description": "Mild skin rash that usually starts with one large oval patch followed by smaller patches on trunk.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "leg"
+    ],
+    "severity": "Benign - self-resolving",
+    "symptoms": [
+      "Herald patch first",
+      "Oval pink patches",
+      "Christmas tree pattern on back",
+      "Mild itching"
+    ],
+    "causes": [
+      "Likely viral trigger",
+      "Not contagious",
+      "Resolves in 6-8 weeks"
+    ]
+  },
+  "porokeratosis": {
+    "name": "Porokeratosis",
+    "description": "Skin condition with thin border ring around raised patches. Some types have small cancer risk.",
+    "common_regions": [
+      "leg",
+      "back",
+      "hand",
+      "face"
+    ],
+    "severity": "Monitor - low cancer risk",
+    "symptoms": [
+      "Ring-shaped patches",
+      "Thin raised borders",
+      "Atrophic centers",
+      "Sun-exposed areas"
+    ],
+    "causes": [
+      "Genetic factors",
+      "Sun exposure",
+      "Immunosuppression"
+    ]
+  },
+  "psoriasis": {
+    "name": "Psoriasis",
+    "description": "Chronic autoimmune condition causing rapid skin cell buildup with thick, silvery scales.",
+    "common_regions": [
+      "whole_body",
+      "scalp",
+      "leg",
+      "face",
+      "back",
+      "hand"
+    ],
+    "severity": "Chronic - controllable",
+    "symptoms": [
+      "Thick red patches",
+      "Silvery scales",
+      "Itching and burning",
+      "Pitting nails"
+    ],
+    "causes": [
+      "Autoimmune response",
+      "Genetic predisposition",
+      "Stress",
+      "Infections",
+      "Cold weather"
+    ]
+  },
+  "seborrheic_keratosis": {
+    "name": "Seborrheic Keratosis",
+    "description": "Common benign skin growth appearing as waxy, scaly, slightly elevated lesions. Not dangerous.",
+    "common_regions": [
+      "back",
+      "face",
+      "scalp",
+      "whole_body"
+    ],
+    "severity": "Benign",
+    "symptoms": [
+      "Waxy appearance",
+      "Brown to black color",
+      "Stuck-on look",
+      "Various sizes"
+    ],
+    "causes": [
+      "Age",
+      "Genetics",
+      "Sun exposure history"
+    ]
+  },
+  "squamous_cell_carcinoma": {
+    "name": "Squamous Cell Carcinoma",
+    "description": "Second most common skin cancer. Grows slowly but can spread if untreated.",
+    "common_regions": [
+      "face",
+      "hand",
+      "scalp",
+      "leg",
+      "back"
+    ],
+    "severity": "Serious - treatable",
+    "symptoms": [
+      "Firm red nodule",
+      "Flat scaly area",
+      "Sore that won't heal",
+      "Rough surface"
+    ],
+    "causes": [
+      "Sun exposure",
+      "UV radiation",
+      "Chronic wounds",
+      "Immunosuppression"
+    ]
+  },
+  "tinea_corporis": {
+    "name": "Tinea Corporis (Ringworm)",
+    "description": "Common fungal skin infection causing ring-shaped, itchy, red lesions on the body.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "leg",
+      "hand"
+    ],
+    "severity": "Contagious fungal - treatable",
+    "symptoms": [
+      "Ring-shaped rash",
+      "Itching",
+      "Scaling edges",
+      "Clear center"
+    ],
+    "causes": [
+      "Fungal infection",
+      "Direct contact",
+      "Animals",
+      "Shared items",
+      "Damp conditions"
+    ]
+  },
+  "tinea_nigra": {
+    "name": "Tinea Nigra",
+    "description": "Rare superficial fungal infection causing dark brown or black patches, typically on palms.",
+    "common_regions": [
+      "hand"
+    ],
+    "severity": "Benign fungal - treatable",
+    "symptoms": [
+      "Dark patches",
+      "Palms affected",
+      "No itching",
+      "Slow spreading"
+    ],
+    "causes": [
+      "Hortaea werneckii fungus",
+      "Soil contact",
+      "Tropical climates"
+    ]
+  },
+  "tungiasis": {
+    "name": "Tungiasis",
+    "description": "Skin infestation by sand fleas, typically on feet, causing painful lesions.",
+    "common_regions": [
+      "foot"
+    ],
+    "severity": "Treatable infestation",
+    "symptoms": [
+      "Painful lesions",
+      "Feet affected",
+      "Black dot center",
+      "Swelling"
+    ],
+    "causes": [
+      "Sand flea penetration",
+      "Barefoot walking",
+      "Tropical regions"
+    ]
+  },
+  "vascular_lesion": {
+    "name": "Vascular Lesion",
+    "description": "Abnormal collection of blood vessels under skin, appearing as red or purple marks.",
+    "common_regions": [
+      "whole_body",
+      "face",
+      "back",
+      "leg"
+    ],
+    "severity": "Usually benign",
+    "symptoms": [
+      "Red or purple marks",
+      "Flat or raised",
+      "May enlarge",
+      "Usually painless"
+    ],
+    "causes": [
+      "Blood vessel abnormalities",
+      "Age",
+      "Genetics",
+      "Some medications"
+    ]
+  },
+  "nevus": {
+    "name": "Melanocytic Nevus (Mole)",
+    "description": "Common benign growth of pigment cells. Can be flat or raised, brown or black.",
+    "common_regions": [
+      "whole_body",
+      "back",
+      "leg",
+      "face",
+      "hand"
+    ],
+    "severity": "Usually benign - monitor",
+    "symptoms": [
+      "Round or oval",
+      "Brown or black",
+      "Flat or raised",
+      "Varying size"
+    ],
+    "causes": [
+      "Melanocyte clustering",
+      "Genetics",
+      "Sun exposure",
+      "Age"
+    ]
+  },
+  "pigmented_benign_keratosis": {
+    "name": "Pigmented Benign Keratosis",
+    "description": "Benign pigmented lesions that mimic melanoma. Requires proper examination to confirm benign.",
+    "common_regions": [
+      "back",
+      "face",
+      "leg",
+      "hand"
+    ],
+    "severity": "Benign",
+    "symptoms": [
+      "Pigmented patches",
+      "Rough texture",
+      "Irregular shape",
+      "Thickened skin"
+    ],
+    "causes": [
+      "Melanin accumulation",
+      "Genetics",
+      "Sun exposure"
+    ]
+  },
+  "healthy_normal": {
+    "name": "Healthy/Normal Skin",
+    "description": "No skin disease detected. The skin appears normal and healthy.",
+    "common_regions": [
+      "face",
+      "leg",
+      "hand",
+      "foot",
+      "scalp",
+      "back",
+      "whole_body"
+    ],
+    "severity": "Healthy",
+    "symptoms": [
+      "Clear skin",
+      "Even tone",
+      "No lesions",
+      "No rash"
+    ],
+    "causes": [
+      "None - healthy skin"
+    ]
+  },
+  "acne": {
+    "name": "Acne Vulgaris",
+    "description": "Very common skin condition caused by blocked hair follicles (oil + dead skin), leading to pimples, blackheads and painful cysts, usually on the face, back and shoulders.",
+    "common_regions": [
+      "face",
+      "back",
+      "scalp",
+      "whole_body"
+    ],
+    "severity": "Common - treatable",
+    "symptoms": [
+      "Pimples / whiteheads / blackheads",
+      "Red inflamed bumps",
+      "Painful cystic lesions",
+      "Oily skin",
+      "Scarring in severe cases"
+    ],
+    "causes": [
+      "Hormonal changes",
+      "Excess oil (sebum) production",
+      "Clogged pores and dead skin",
+      "Bacteria (Cutibacterium acnes)",
+      "Stress, diet, cosmetics"
+    ]
+  },
+  "hyperpigmentation": {
+    "name": "Hyperpigmentation (Dark Patches)",
+    "description": "Skin condition where patches turn darker than surrounding skin due to extra melanin, caused by sun exposure, inflammation, hormones or skin injuries.",
+    "common_regions": [
+      "face",
+      "leg",
+      "hand",
+      "back",
+      "whole_body"
+    ],
+    "severity": "Common - treatable",
+    "symptoms": [
+      "Dark patches or spots",
+      "Uneven skin tone",
+      "Sun-triggered darkening",
+      "Post-inflammatory marks"
+    ],
+    "causes": [
+      "Sun exposure",
+      "Hormonal changes (melasma)",
+      "Post-acne inflammation",
+      "Skin injuries / scars",
+      "Certain medicines"
+    ]
+  },
+  "eczema": {
+    "name": "Eczema (Atopic Dermatitis)",
+    "description": "Very common condition causing dry, red, itchy, cracked skin with small blisters; often runs in families and flares up with irritants or allergies.",
+    "common_regions": [
+      "whole_body",
+      "face",
+      "hand",
+      "leg",
+      "back"
+    ],
+    "severity": "Common - manageable",
+    "symptoms": [
+      "Dry itchy skin",
+      "Red inflamed patches",
+      "Cracked or weeping skin",
+      "Rough thickened areas",
+      "Worse with sweating"
+    ],
+    "causes": [
+      "Genetics (family history)",
+      "Allergies / irritants",
+      "Dry weather",
+      "Stress",
+      "Soaps and detergents"
+    ]
+  },
+  "urticaria": {
+    "name": "Urticaria (Hives)",
+    "description": "Sudden raised, itchy red welts that appear on the skin and usually fade within hours to a day, caused by an allergic or immune reaction.",
+    "common_regions": [
+      "whole_body",
+      "face",
+      "leg",
+      "back",
+      "hand",
+      "scalp"
+    ],
+    "severity": "Common - usually short-lived",
+    "symptoms": [
+      "Raised red welts",
+      "Intense itching",
+      "Welts change shape/size",
+      "Come and go quickly"
+    ],
+    "causes": [
+      "Food allergies",
+      "Medicines",
+      "Insect stings",
+      "Heat / pressure",
+      "Infections"
+    ]
+  },
+  "contact_dermatitis": {
+    "name": "Contact Dermatitis",
+    "description": "Red, itchy rash caused by direct contact with an irritant (chemicals, soap, plants like poison ivy) or an allergen.",
+    "common_regions": [
+      "hand",
+      "face",
+      "leg",
+      "whole_body"
+    ],
+    "severity": "Common - treatable",
+    "symptoms": [
+      "Red rash at contact site",
+      "Itching and burning",
+      "Dry cracked skin",
+      "Small blisters in severe cases"
+    ],
+    "causes": [
+      "Soaps / detergents",
+      "Nickel jewellery",
+      "Poison ivy plants",
+      "Cosmetics / creams",
+      "Latex"
+    ]
+  },
+  "alopecia": {
+    "name": "Hair Loss (Alopecia)",
+    "description": "Sudden or gradual loss of scalp or body hair; includes hereditary balding, patchy autoimmune hair loss, and hair breakage from styling.",
+    "common_regions": [
+      "scalp"
+    ],
+    "severity": "Common - treatable depending on type",
+    "symptoms": [
+      "Patchy bald spots",
+      "Thinning hair",
+      "Hair shedding in clumps",
+      "Brittle broken hair"
+    ],
+    "causes": [
+      "Hormones / heredity",
+      "Autoimmune reaction",
+      "Stress",
+      "Nutritional deficiency (iron, zinc)",
+      "Harsh styling / chemicals"
+    ]
+  },
+  "nail_fungus": {
+    "name": "Nail Fungus (Onychomycosis)",
+    "description": "Fungal infection of fingernails or toenails causing thickening, yellowing, brittleness and white or brown discolouration of the nail.",
+    "common_regions": [
+      "hand",
+      "foot"
+    ],
+    "severity": "Contagious fungal - treatable",
+    "symptoms": [
+      "Thickened nail",
+      "Yellow/brown discolouration",
+      "Brittle crumbling edge",
+      "Debris under nail",
+      "Mild foot odour"
+    ],
+    "causes": [
+      "Fungal infection (dermatophytes)",
+      "Warm damp footwear",
+      "Public showers/pools",
+      "Injury to nail",
+      "Diabetes / weak immunity"
+    ]
+  },
+  "scabies": {
+    "name": "Scabies",
+    "description": "Very itchy skin infestation caused by tiny mites burrowing under the skin, spreading quickly through close contact and causing track-like rashes.",
+    "common_regions": [
+      "hand",
+      "whole_body",
+      "back",
+      "leg"
+    ],
+    "severity": "Contagious - treatable",
+    "symptoms": [
+      "Severe itching (worse at night)",
+      "Thin grey burrow lines",
+      "Red pimple-like bumps",
+      "Rash between fingers/wrists"
+    ],
+    "causes": [
+      "Sarcoptes scabiei mite",
+      "Close skin contact",
+      "Shared bedding / clothes",
+      "Crowded living"
+    ]
+  },
+  "vasculitis": {
+    "name": "Vasculitis",
+    "description": "Inflammation of blood vessels causing rash-like red or purple spots, mainly on the legs, along with skin ulcers; may need medical work-up.",
+    "common_regions": [
+      "leg",
+      "whole_body"
+    ],
+    "severity": "Medical - see doctor promptly",
+    "symptoms": [
+      "Red/purple tender spots",
+      "Leg rashes",
+      "Skin ulcers",
+      "Fever, joint pain, fatigue"
+    ],
+    "causes": [
+      "Immune system inflammation",
+      "Autoimmune disease",
+      "Some infections",
+      "Certain medicines"
+    ]
+  },
+  "bullous_disease": {
+    "name": "Bullous Disease (Blistering)",
+    "description": "Group of conditions that cause fluid-filled blisters on skin or mucous membranes; includes autoimmune blistering diseases (needs specialist care).",
+    "common_regions": [
+      "whole_body",
+      "face",
+      "hand"
+    ],
+    "severity": "Medical - see doctor",
+    "symptoms": [
+      "Large fluid blisters",
+      "Blisters at friction sites / mouth",
+      "Skin erosions",
+      "Burning or pain"
+    ],
+    "causes": [
+      "Autoimmune reaction",
+      "Genetic disorders",
+      "Drug reactions",
+      "Chronic friction"
+    ]
+  },
+  "drug_eruption": {
+    "name": "Exanthem / Drug Eruption",
+    "description": "Skin rash appearing after starting a medicine or with viral illness - red blotchy bumps that may itch; usually resolves when medicine stops.",
+    "common_regions": [
+      "whole_body",
+      "face",
+      "back"
+    ],
+    "severity": "Common - monitor carefully",
+    "symptoms": [
+      "Red blotchy rash",
+      "Itching",
+      "Appears 1-2 weeks after medicine",
+      "Fever sometimes",
+      "Mouth lining involvement (serious)"
+    ],
+    "causes": [
+      "Antibiotics/medicines",
+      "Viral infections",
+      "Allergic reaction",
+      "New cosmetic products"
+    ]
+  },
+  "systemic_disease": {
+    "name": "Systemic Skin Disease",
+    "description": "Skin changes caused by a whole-body (systemic) condition such as diabetes, thyroid problems, kidney, liver or blood disorders, or internal infection.",
+    "common_regions": [
+      "whole_body",
+      "hand",
+      "face"
+    ],
+    "severity": "Medical - needs full check-up",
+    "symptoms": [
+      "Widespread skin colour/texture change",
+      "Dry rough patches",
+      "Easy bruising",
+      "Slow-healing wounds",
+      "Localised swelling/redness"
+    ],
+    "causes": [
+      "Diabetes / thyroid disorders",
+      "Kidney or liver disease",
+      "Iron / vitamin deficiencies",
+      "Blood disorders",
+      "Nutritional problems"
+    ]
+  }
+}
