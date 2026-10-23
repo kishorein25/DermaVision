@@ -1,0 +1,25 @@
+CLINICAL GUIDELINE: ACNE VULGARIS & ROSACEA MANAGEMENT
+
+1. ACNE VULGARIS PATHOPHYSIOLOGY
+Acne vulgaris is a chronic inflammatory disorder of the pilosebaceous units. Key pathogenic factors include:
+- Hyperkeratinization of the follicular infundibulum causing microcomedones.
+- Sebaceous gland hypersecretion stimulated by androgens.
+- Proliferation of Cutibacterium acnes (formerly Propionibacterium acnes).
+- Follicular inflammation and rupture causing inflammatory papules, pustules, nodules, and cysts.
+
+CLINICAL CLASSIFICATION:
+- Comedonal Acne: Open comedones (blackheads) and closed comedones (whiteheads). First-line treatment: Topical retinoids (adapalene 0.1%, tretinoin 0.025%-0.05%).
+- Mild-to-Moderate Inflammatory Acne: Papules and pustules. First-line therapy: Benzoyl peroxide (2.5%-5%) combined with topical clindamycin (1%) or topical retinoids.
+- Severe Nodulocystic Acne: Painful deep cysts, scarring risk. Requires systemic therapy: Oral isotretinoin or oral antibiotics (doxycycline, minocycline) under dermatological supervision.
+
+2. ROSACEA SUBTYPES & DISTINCTION
+Rosacea is a facial dermatosis characterized by flushing, erythema, and telangiectasia. Unlike acne, comedones are ABSENT.
+- Erythematotelangiectatic Rosacea: Persistent central facial erythema, flushing, visible telangiectasias. Avoid spicy food, alcohol, hot drinks, UV radiation. Treatment: Topical brimonidine, oxymetazoline, vascular laser (PDL).
+- Papulopustular Rosacea: Central erythema with inflammatory papules and pustules resembling acne without comedones. Treatment: Topical ivermectin 1%, metronidazole 0.75%, azelaic acid 15%-20%, low-dose oral doxycycline (40mg modified release).
+- Phymatous Rosacea: Tissue hypertrophy (rhinophyma on the nose). Requires surgical or ablative laser intervention.
+- Ocular Rosacea: Blepharitis, conjunctivitis, dryness, foreign body sensation.
+
+3. DIETARY AND LIFESTYLE TRIGGERS
+- High-glycemic-load diets increase IGF-1 and stimulate sebum production.
+- Skim milk and whey protein powders are associated with acne flare-ups.
+- Recommend omega-3 fatty acids, green tea polyphenols, zinc, and gentle non-comedogenic foaming cleansers.

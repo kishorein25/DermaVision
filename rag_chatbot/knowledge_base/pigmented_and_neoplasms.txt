@@ -1,0 +1,23 @@
+CLINICAL GUIDELINE: PIGMENTARY DISORDERS & CUTANEOUS NEOPLASMS
+
+1. MELASMA & HYPERPIGMENTATION
+- Melasma: Acquired hypermelanosis predominantly affecting sun-exposed facial zones (malar cheeks, forehead, upper lip) in women of Fitzpatrick III-V skin types. Hormonal triggers (pregnancy, oral contraceptives) and UVA/visible blue light.
+- Management: Strict broad-spectrum mineral sunscreen (SPF 50+ with iron oxides for visible light protection), topical hydroquinone 2%-4%, azelaic acid 20%, tranexamic acid, cysteamine.
+- Post-Inflammatory Hyperpigmentation (PIH): Flat macular hyperpigmentation developing at sites of healed inflammatory lesions (acne, eczema, trauma). Gentle exfoliation with azelaic acid or niacinamide; avoid picking or harsh chemical peels.
+
+2. VITILIGO & HYPOPIGMENTATION
+- Vitiligo: Autoimmune destruction of epidermal melanocytes causing sharply circumscribed, amelanotic milky-white macules and patches.
+- Management: Topical corticosteroids, topical calcineurin inhibitors (tacrolimus 0.1%), topical JAK inhibitors (ruxolitinib cream), and targeted narrowband UVB phototherapy.
+
+3. CUTANEOUS NEOPLASMS & THE ABCDE OF MELANOMA
+The ABCDE clinical screening criteria for suspicious pigmented lesions:
+- A: Asymmetry (one half does not match the other).
+- B: Border Irregularity (scalloped, notched, or poorly defined edges).
+- C: Color Variegation (heterogeneous shades of brown, black, red, white, or blue).
+- D: Diameter (>6 mm, roughly pencil eraser size, though early melanomas can be smaller).
+- E: Evolving (any change in size, shape, color, bleeding, itching, or rapid crusting).
+
+4. NON-MELANOMA SKIN CANCERS
+- Basal Cell Carcinoma (BCC): Most common skin cancer. Pearly, translucent papule with telangiectasia, rolled borders, and central depression/ulceration. Highly curable with surgical excision (Mohs surgery).
+- Squamous Cell Carcinoma (SCC): Hyperkeratotic, indurated erythematous papule or plaque, often with central ulceration or crusting. Arises frequently from precursor Actinic Keratoses on chronic sun-damaged skin.
+- Seborrheic Keratosis (BENIGN): "Stuck-on", waxy, verrucous brown or tan plaques with pseudohorn cysts. Completely benign; no malignancy risk.

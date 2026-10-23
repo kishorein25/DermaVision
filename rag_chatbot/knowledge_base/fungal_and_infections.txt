@@ -1,0 +1,24 @@
+CLINICAL GUIDELINE: CUTANEOUS FUNGAL, BACTERIAL & VIRAL INFECTIONS
+
+1. DERMATOPHYTE INFECTIONS (TINEA)
+Infections caused by dermatophyte fungi (Trichophyton, Microsporum, Epidermophyton) digesting stratum corneum keratin.
+- Tinea Corporis (Ringworm): Annular (ring-shaped) erythematous plaque with active elevated, scaly advancing border and central clearing.
+- Tinea Cruris ("Jock Itch"): Pruritic erythematous plaques in the groin and upper thighs, sparing the scrotum (crucial distinction from cutaneous candidiasis which involves the scrotum and has satellite pustules).
+- Tinea Pedis (Athlete's Foot): Interdigital maceration, fissuring, scaling on soles ("moccasin distribution").
+- Tinea Capitis: Scaling, patchy alopecia with broken "black dot" hairs on scalp. Requires systemic oral griseofulvin or terbinafine (topical therapy is ineffective for follicular hair shaft infection).
+- Diagnostic Confirmation: KOH wet mount microscopy demonstrating branching hyphae.
+
+2. PITYRIASIS VERSICOLOR (TINEA VERSICOLOR)
+Superficial infection by Malassezia globosa/furfur.
+- Presentation: Hypopigmented or hyperpigmented, finely scaling macules coalescing on chest, back, and shoulders. More visible after sun exposure.
+- Management: Topical selenium sulfide shampoo, ketoconazole 2% cream, or oral fluconazole.
+
+3. BACTERIAL INFECTIONS
+- Impetigo: Highly contagious superficial Staphylococcus aureus / Streptococcus pyogenes infection. Honey-colored crusts around mouth and nose in children. Treatment: Topical mupirocin 2% or oral cephalexin.
+- Folliculitis: Erythematous follicular pustules centered on hair shafts.
+- Cellulitis: Spreading erythema, warmth, edema, and tenderness of deep dermis and subcutaneous tissue. Systemic fever often present; requires systemic antibiotics.
+
+4. VIRAL DERMATOSES
+- Herpes Simplex (HSV-1 / HSV-2): Grouped painful vesicles on an erythematous base ("dewdrops on a rose petal"), transitioning to crusts. Oral valacyclovir or acyclovir.
+- Herpes Zoster (Shingles): Reactivation of Varicella Zoster Virus along a single unilateral dermatome. Severe prodromal neuropathic pain preceding vesicular eruption. Early antiviral initiation within 72 hours reduces post-herpetic neuralgia risk.
+- Verruca Vulgaris (Warts): Human Papillomavirus (HPV) induced hyperkeratotic, exophytic papules with thrombosed capillary black dots. Cryotherapy or salicylic acid.

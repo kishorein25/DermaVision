@@ -1,0 +1,20 @@
+CLINICAL GUIDELINE: PSORIASIS VULGARIS & SCALING ERYTHEMAS
+
+1. PSORIASIS VULGARIS PATHOPHYSIOLOGY
+Psoriasis is a chronic, immune-mediated, systemic inflammatory disease driven by the IL-23/IL-17 immune axis, resulting in keratinocyte hyperproliferation and accelerated epidermal turnover (3-5 days instead of normal 28 days).
+- Hallmark Lesion: Sharply demarcated, erythematous plaques covered with thick, cohesive, micaceous or silvery-white scales.
+- Classic Predilection Sites: Extensor surfaces (elbows, knees), scalp, lumbosacral region, umbilicus, and nails (pitting, oil-drop discoloration, subungual hyperkeratosis).
+- Pathognomonic Signs:
+  * Auspitz Sign: Pinpoint bleeding upon gentle scrape/removal of silvery scales.
+  * Koebner Phenomenon: Development of psoriatic plaques at sites of physical cutaneous trauma (scratches, burns).
+
+2. CLINICAL VARIANTS
+- Plaque Psoriasis (Psoriasis Vulgaris): 80%-90% of cases.
+- Guttate Psoriasis: Sudden eruption of small raindrop-like papules on trunk, frequently triggered by preceding Group A Streptococcal pharyngitis in youth.
+- Inverse / Flexural Psoriasis: Occurs in intertriginous skin folds (axillae, groin, inframammary). Smooth, glistening, non-scaly erythema.
+- Pustular Psoriasis: Sterile pustules on erythematous base (generalized or palmoplantar). Medical urgency if generalized (von Zumbusch type).
+- Erythrodermic Psoriasis: >90% body surface erythema, life-threatening thermoregulatory failure.
+
+3. MANAGEMENT STRATEGY
+- Mild Plaque (<5% Body Surface Area): Potent topical corticosteroids (clobetasol, betamethasone) rotated or combined with topical vitamin D analogs (calcipotriol/calcipotriene) and keratolytics (salicylic acid 3%-5%).
+- Moderate-to-Severe (>10% BSA) or Psoriatic Arthritis: Narrowband UVB phototherapy (311 nm), oral systemic agents (methotrexate, apremilast, cyclosporine), or targeted biologic therapies (anti-TNF, anti-IL-17, anti-IL-23).

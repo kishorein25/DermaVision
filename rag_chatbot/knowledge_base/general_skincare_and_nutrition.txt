@@ -1,0 +1,20 @@
+CLINICAL GUIDELINE: GENERAL CUTANEOUS HEALTH, NUTRITION & EMERGENCY RED FLAGS
+
+1. EVIDENCE-BASED DERMATOLOGICAL NUTRITION
+- Anti-inflammatory Omega-3 Fatty Acids: EPA and DHA suppress pro-inflammatory leukotriene B4 (LTB4) and prostaglandin E2 (PGE2). Abundant in salmon, sardines, walnuts, and chia seeds.
+- Zinc: Essential cofactor for matrix metalloproteinases, protein synthesis, and wound epithelialization. Promotes neutrophil and macrophage function.
+- Vitamin C (Ascorbic Acid): Obligate cofactor for prolyl and lysyl hydroxylase in collagen synthesis. Scavenges free radicals from UV radiation.
+- Vitamin D: Modulates antimicrobial peptides (cathelicidin LL-37) and suppresses overactive helper T-cell proliferation in psoriatic skin.
+- Hydration & Skin Barrier: Maintaining hydration supports the stratum corneum natural moisturizing factor (NMF) consisting of amino acids, pyrrolidone carboxylic acid, and lactate.
+
+2. SUN PROTECTION FACTOR (SPF) CLINICAL GUIDELINES
+- Broad-Spectrum SPF 30 to 50+: Protects against UVB (erythema, direct DNA thymine dimers) and UVA (photoaging, reactive oxygen species, deep collagen degradation).
+- Reapplication rule: Apply 2 mg/cm^2 (roughly one teaspoon for face and neck) 15-30 minutes prior to UV exposure, and reapply every 2 hours or immediately following swimming or sweating.
+
+3. DERMATOLOGICAL RED FLAGS (IMMEDIATE PHYSICIAN / EMERGENCY ESCALATION)
+The presence of any of the following symptoms warrants immediate in-person dermatological evaluation or emergency care:
+- Systemic involvement: Skin rash accompanied by high fever, hypotension, or altered mental status.
+- Rapid epidermal detachment: Painful denudation, skin blistering or sloughing covering >10% of body surface area (Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis). Positive Nikolsky sign.
+- Rapidly progressive necrotizing soft tissue infection: Extreme disproportionate pain, purpura, crepitus, or woody induration (necrotizing fasciitis).
+- Targetoid / Iris lesions with mucosal ulceration (oral, genital, conjunctival involvement) suggestive of Erythema Multiforme Major.
+- Petechiae or purpura that do NOT blanch under diascopy pressure (glass slide test), indicating potential meningococcal septicemia or vasculitis.

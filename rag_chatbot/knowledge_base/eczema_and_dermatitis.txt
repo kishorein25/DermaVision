@@ -1,0 +1,21 @@
+CLINICAL GUIDELINE: ATOPIC DERMATITIS, CONTACT DERMATITIS & ECZEMA
+
+1. ATOPIC DERMATITIS (ECZEMA)
+Atopic dermatitis is a chronic, pruritic inflammatory skin disease associated with epidermal barrier disruption (often filaggrin gene mutations) and immune dysregulation (Th2-skewed response).
+- Cardinal Symptom: Intense pruritus ("the itch that rashes").
+- Morphological Hallmark: Ill-defined erythema, microvesiculation, oozing, crusting in acute phases; lichenification (skin thickening with exaggerated markings) in chronic phases.
+- Distribution: Flexural surfaces (antecubital and popliteal fossae), neck, wrists in adults; cheeks, extensor surfaces in infants.
+
+2. SEBORRHEIC DERMATITIS
+Inflammatory disorder associated with Malassezia yeast colonization in sebaceous-rich areas.
+- Presentation: Greasy yellowish scales overlying erythematous patches on scalp (dandruff), nasolabial folds, glabella, eyebrows, and ears.
+- Treatment: Topical antifungal shampoos (ketoconazole 2%, selenium sulfide, zinc pyrithione), mild topical corticosteroids (hydrocortisone 1%), or topical calcineurin inhibitors.
+
+3. CONTACT DERMATITIS
+- Irritant Contact Dermatitis (ICD): Non-immunologic direct chemical/physical damage (soaps, detergents, wet work). Hands most commonly affected.
+- Allergic Contact Dermatitis (ACD): Type IV delayed-type hypersensitivity reaction (nickel in jewelry, fragrances, poison ivy/urushiol, preservatives). Requires patch testing.
+
+4. THERAPEUTIC REGIMEN FOR BARRIER REPAIR
+- Cornerstone: Frequent application of bland ceramide-rich emollients (ointments or creams over lotions). Apply within 3 minutes of warm bathing ("soak and seal").
+- Anti-inflammatory: Low-to-mid potency topical corticosteroids (hydrocortisone, triamcinolone acetonide) for acute flares. Transition to topical calcineurin inhibitors (tacrolimus, pimecrolimus) for sensitive facial areas to avoid steroid-induced skin atrophy.
+- Systemic / Biologics: Dupilumab (anti-IL-4R-alpha), JAK inhibitors (upadacitinib) for moderate-to-severe refractory cases.
